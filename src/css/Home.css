@@ -1,0 +1,245 @@
+.head{
+  width: 100vw;
+  /* height: 100vh; */
+  color: white;
+  font-weight: 200;
+  /* animation: fadeIn 0.6s ease-out 0s 1; */
+}
+
+.head h1{
+  color: white;
+  font-weight: 600;
+}
+
+#head-fiber{
+  width: 100vw !important;
+  height: 100vh;
+  background-color: black;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+
+  filter: invert(1) brightness(70%);
+  transition: filter 0.6s ease;
+  z-index: -1;
+  animation: fadeIn 1.2s ease-out 0s 1;
+}
+
+#head-fiber.blur{
+  filter: invert(1) brightness(70%) blur(5px);
+  transition: filter 0.15s ease;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#head-glow{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  pointer-events: none;
+}
+
+#head-glow.active{
+  opacity: 1;
+}
+
+
+.head a:hover{
+  text-decoration: underline;
+}
+
+.grey{
+  opacity: 0.3;
+}
+
+.head-about{
+  
+  position: fixed;
+  top: calc(50vh - 67px);
+  left: 96px;
+  width: 500px;
+  max-width: 500px;
+}
+
+.head-projects{
+  
+  position: fixed;
+  left: 80vw;
+  /* left: min(calc(100vw - 60px - 96px), 80vw); */
+  top: calc(50vh - 1.2rem);
+}
+
+.head-projects a{
+  display: block; 
+}
+
+
+
+
+
+
+.box{
+  position: absolute;
+  transition: all 0s;
+
+  opacity: 0;
+
+  top:50vh;  
+  width: 683px;
+  left: calc(80vw - 683px - 20px);
+  pointer-events: none;
+}
+
+.box.hovered{
+  opacity: 1;
+}
+  
+.box.active{
+  transition: all 0.6s ease;
+  opacity: 1 !important;
+  pointer-events: none;
+
+  width: var(--container-width);
+  top: var(--margin-big);
+  left: calc(50% - var(--container-width) / 2);
+  /* transform-origin: top left; */
+  /* transform: translateY(calc(-50vh + 96px)) translateX(calc((50vw - var(--container-width) / 2) - (80vw - 683px - 20px))) scale(calc(900 / 683)); */
+
+  z-index:100;
+
+}
+
+.box .background {
+  padding-bottom: 56%;
+  background-size: 100% auto;
+  background-position: center center;
+
+  transition: padding-bottom 0s;
+}
+
+.box.active .background {
+  transition: padding-bottom 0.6s ease;
+  padding-bottom: 50%;
+}
+
+.box .info{
+  position:absolute;
+  color: white;
+  font-weight: 200;
+  margin-top: 10px;
+}
+
+.box .info .title{
+  display: none;
+}
+
+.box.active .info{
+  display: none;
+}
+
+.work{
+  display: none;
+}
+
+@media only screen and (max-width: 1650px) {
+  .head-about{
+    top: var(--margin-big);
+  }
+}
+
+@media only screen and (max-width: 1024px), only screen and (hover: none){
+  #head-fiber{
+    filter: invert(1) brightness(30%);
+  }
+  #head-fiber.blur{
+    filter: invert(1) brightness(30%) blur(5px);
+  }
+  .head-about{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    padding: 96px 0;
+    width: var(--container-width);
+    max-width: 736px;
+    
+  }
+  .head-projects, #head-glow{
+    display: none;
+  }
+  .work{
+    color: white;
+    font-weight: 200;
+    display: block;
+    margin: 1rem auto;
+    width: var(--container-width);
+    max-width: 736px;
+  }
+  .box{
+    opacity: 1;
+    position: inherit;
+    transition: all 0s;
+    margin: 1rem auto 2rem auto;
+    width: var(--container-width);
+    max-width: 736px;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    pointer-events: all;
+  } 
+
+  .box .background{
+    width: 100%;
+  }
+  .box.active{
+    position: absolute;
+    transform: none;
+    width: var(--container-width);
+    top: var(--margin-big);
+    left: calc(50% - var(--container-width) / 2);
+    transition: all 0s;
+    grid-template-columns: 1fr;
+    margin: 0;
+    max-width: unset;
+  }
+  .box.active .background {
+    transition: padding-bottom 0s;
+    padding-bottom: 50%;
+  }
+  .box .info{
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    top: 0;
+  }
+  .box .info .title{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .head-about{
+    padding: 192px 0;
+  }
+  .box{
+    grid-template-columns: 1fr;
+  }
+  .box .info{
+    margin-bottom: 2rem;
+  }
+}

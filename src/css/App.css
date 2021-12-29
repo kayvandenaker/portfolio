@@ -1,0 +1,178 @@
+:root{
+  font-size: 16px;
+  overflow-x: hidden;
+  background-color: black;
+
+  --comes-from-home: 0;
+  --container-width: 900px;
+  --margin-big: 96px;
+  --scale: 0;
+
+  line-height: 1.4;
+}
+
+@media only screen and (max-width: 1024px) {
+  :root{
+    --container-width: calc(100% - 2 * var(--margin-big));
+    /* --container-width: 80vw; */
+    --margin-big: 20px;
+  }
+  body{
+    margin-bottom: 96px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  :root{
+    --container-width: calc(100% - 2 * var(--margin-big));
+    --margin-big: 1rem;
+  }
+}
+
+
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+
+*{
+  font-family: "Inter";
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  color: #505050;
+  /* background-color: black; */
+}
+
+img{
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+iframe{
+  width: 100%;
+  display: block;
+  height: calc(736px * 0.56);
+  margin-bottom: 1rem;
+}
+
+video{
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+h1{
+  font-size: 3rem;
+  font-weight: 650;
+  color: black;
+}
+
+h2{
+  font-size: 2rem;
+  font-weight: 650;
+  color: black;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 650;
+  color: black;
+  margin: 3rem 0 1rem 0;
+}
+
+iframe + .squares-box img{
+  margin-bottom: 0;
+}
+
+iframe + .squares-box .squares{
+  margin-top: 0;
+}
+
+iframe + h3, video + h3, img + h3{
+  margin-top: 4rem;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+p{
+  margin-bottom: 2rem;
+}
+
+.quote{
+  opacity: 0.4;
+  font-style: italic;
+  display: block;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  iframe{
+    height: calc((100vw - 2 * var(--margin-big)) * 0.56);
+    max-height: calc(736px * 0.56);
+  }
+  .img-zoomer{
+    pointer-events: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1, h2{
+    font-size: 2rem;
+  }
+
+}
+
+
+
+.img-zoomer{
+  cursor: zoom-in;
+}
+
+#zoom-overlay{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 999;
+  opacity: 0;
+
+  pointer-events: none;
+  cursor: zoom-out;
+
+  transition: opacity 0.15s ease;
+}
+
+#zoom-overlay.active{
+  opacity: 1;
+  pointer-events: all;
+}
+
+#zoom-overlay img{
+  min-width: var(--container-width);
+  width: 80vw;
+  height: calc(100% - 2 * var(--margin-big));
+  margin: var(--margin-big) auto;
+  display: block;
+  object-fit: contain;
+
+  transform: scale(0.9,0.9);
+  transition: transform 0.15s ease;
+}
+
+#zoom-overlay.active img{
+  transform: scale(1,1);
+}
+
+
+
