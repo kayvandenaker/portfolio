@@ -4,15 +4,15 @@ function About() {
   return (
     <div className='page-container'>
         <div className='page-content about'>
-        <div className='about-grid'>
-          <div className='profile' style={{backgroundImage: "url('./img/profile.png'"}}></div>
-          <div>
-            <h2>Kay van den Aker</h2>
-            <p>MFA Interaction Design at Umeå Institute of Design
-            {/* <p>MFA IxD at UID & Design Technologist at Rolls-Royce */}
-              <span style={{ marginBottom: 0}}>Umeå, Sweden | Goodwood, UK</span>
-            </p>
-          </div>
+          <div className='about-grid'>
+            <div className='profile' style={{backgroundImage: "url('./img/head.png'"}}></div>
+            <div>
+              <h2>Kay van den Aker</h2>
+              <p>MFA Interaction Design at Umeå Institute of Design
+              {/* <p>MFA IxD at UID & Design Technologist at Rolls-Royce */}
+                <span style={{ marginBottom: 0}}>Umeå, Sweden | Goodwood, UK</span>
+              </p>
+            </div>
           </div>
           <h3>About</h3>
           My name is Kay van den Aker (he/him). I am an interaction designer and creative technologist from the Netherlands. I am fascinated by the relationship between people and the ever smarter getting world and how design allows us to shape this alliance.

@@ -7,14 +7,26 @@ function Bmw({onZoomClick}) {
           <h2>BMW Group</h2>
           <p>Highlights of my work as design technologist at the BMW Group headquarters in Munich.</p>
           <h3>About</h3>
-          <p>My main role within the BMW Group was to explore, iterate and validate design proposals early in the design process (mainly for the BMW i Vision Circular). I often found myself with designers, artists, composers and engineers thinkering to make their ideas experience-able. I worked with various hard- and software tools such as Arduino, Kinect, Unity, MadMapper, Leap Motion, TouchDesigner and ProtoPie.
-            <br/><br/>
-            All the process pics are under NDA so here are only the fancy final visuals.
+          <p>My main role within the BMW Group was to explore, iterate and validate design proposals early in the design process (mainly for the BMW i Vision Circular). I often found myself with designers, artists, composers and engineers thinkering to make their ideas experience-able. I worked with various hard- and software tools such as Arduino, Kinect, Unity, MadMapper, Leap Motion, TouchDesigner and ProtoPie. The process pics are under NDA so these are only the fancy final visuals.
+          <br/><br/>
+          <b>Context:</b> Internship, <a href='https://www.bmwgroup.com/' target="_blank">BMW Group</a><br/>
+          <b>When:</b> Spring Semester, 2021 <br/>
+          <b>Mentor:</b> Daniel Fischer, UX/UI Designer 
           </p>
           
+          <div className='quote'>
+            <div className='profile' style={{backgroundImage: "url('./img/quotes/daniel.jpg'"}}></div>
+            <div>
+                “Kay did a fantastic job within our design team! He helped us shaping future in-car interactions with tons of mockups ( sketched, modeled, 3D Printed, soldered, programmed, iterated). Kay matched perfectly in our team - his behavior was always a professional, nice and appreciated one.
+                His skills were already outstanding and even new tools didn’t scared him at all - with the help of team members, tutorials and manuals he showed a perfect learning curve.
+                We hope he comes back for his next internship or directly applies for a job!” - Daniel Fischer, UX/UI Designer BMW Group
+            </div>
+          </div>
+
+
           <h3>Dashboard animations</h3>
           <p>I was end responsible for the dashboard particle animation; initially I explored various ways of mapping light into the crystal and later, together with artists and composers, creating interactive animations in Unity VFX while integrating the gesture tracking of the engineering team. Low-fi mockups were made using Leap Motion, Azure Kinect and TouchDesigner</p>
-          <video controls src="./img/bmw/interacting.mp4" type="video/mp4" autoPlay={true} muted loop>
+          <video controls src="./img/bmw/interacting.mp4" type="video/mp4" autoPlay={true} muted loop playsInline>
             Your browser does not support the video tag.
           </video>
 
@@ -32,13 +44,15 @@ function Bmw({onZoomClick}) {
 
           <h3>Free-form Hover Displays</h3>
           <p>Unfortunately, this project is still ongoing so I cannot share too much, but throughout my internship I researched various technologies for free-from hover touch displays with the goal to more easily and quickly explore display shapes and interactions in interior mockups.</p>
-          <p>
+          {/* <p>
             <span className='quote'>
               “Kay did a fantastic job within our design team! He helped us shaping future in-car interactions with tons of mockups ( sketched, modeled, 3D Printed, soldered, programmed, iterated). Kay matched perfectly in our team - his behavior was always a professional, nice and appreciated one.
               His skills were already outstanding and even new tools didn’t scared him at all - with the help of team members, tutorials and manuals he showed a perfect learning curve.
               We hope he comes back for his next internship or directly applies for a job!” - Daniel Fischer, UX/UI Designer BMW Group
             </span>
-          </p>
+          </p> */}
+
+
         </div>
     </div>
   )

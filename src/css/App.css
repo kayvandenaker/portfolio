@@ -7,6 +7,7 @@
   --container-width: 900px;
   --margin-big: 96px;
   --scale: 0;
+  --img-radius: 2px;
 
   line-height: 1.4;
 }
@@ -52,6 +53,7 @@ img{
   width: 100%;
   display: block;
   margin-bottom: 1rem;
+  border-radius: var(--img-radius);
 }
 
 iframe{
@@ -59,12 +61,14 @@ iframe{
   display: block;
   height: calc(736px * 0.56);
   margin-bottom: 1rem;
+  border-radius: var(--img-radius);
 }
 
 video{
   width: 100%;
   display: block;
   margin-bottom: 1rem;
+  border-radius: var(--img-radius);
 }
 
 h1{
@@ -84,6 +88,10 @@ h3{
   font-weight: 650;
   color: black;
   margin: 3rem 0 1rem 0;
+}
+
+b{
+  color: black;
 }
 
 iframe + .squares-box img{
@@ -107,12 +115,7 @@ p{
   margin-bottom: 2rem;
 }
 
-.quote{
-  opacity: 0.4;
-  font-style: italic;
-  display: block;
-  margin-top: 1rem;
-}
+
 
 @media only screen and (max-width: 1024px) {
   iframe{

@@ -8,8 +8,20 @@ function Red({onZoomClick}) {
           <h2>Team RED</h2>
           <p>Tangible interactable on which stakeholders collaborate and explore energy scenarios together.</p>
           
-          <h3>Problem</h3>
-          <p>The biggest bottleneck in the energy transition for campuses, such as the Eindhoven University of Technology, is the lack of overview of the current situation, the problems and the impact of sustainable innovations.</p>
+          <h3>About</h3>
+          <p>The biggest bottleneck in the energy transition for campuses, such as the Eindhoven University of Technology, is the lack of overview of the current situation, the problems and the impact of sustainable innovations. Team RED is tackling this issue by providing an innovation guiding platform to gain overview and assist stakeholders in decision making.
+          <br/><br/>
+          <b>Context:</b> Student Team, Energy Transition Track, TU/e Honors Academy<br/>
+          <b>When:</b> 2017 - 2019<br/>
+          <b>Partner:</b> <a href='https://www.exentr.com/' target="_blank">Exentr</a><br/>
+          <b>Contribution:</b> Lead / Interaction Design & Experience Prototyping 
+          </p>
+          <div className='quote'>
+            <div className='profile' style={{backgroundImage: "url('./img/quotes/inez.jpg'"}}></div>
+            <div>
+              “The fact that Kay has successfully combined the two-year Honors program with his regular Bachelor program at the Department of Industrial Design shows that he is an excellent and motivated student.” - Prof. I. Lopez Arteaga, Dean TU/e Honors Academy
+            </div>
+          </div>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/87QHXdIrvMM?rel=0" frameBorder="0" allowFullScreen="1"></iframe>
           
           <h3>Ideation</h3>
@@ -22,7 +34,11 @@ function Red({onZoomClick}) {
           
           <h3>Outcome</h3>
           <p>The table was used by the TU/e to gain insights into their grid data and discuss with energy stakeholders. The map is presented at the entrance of the main building of the campus to allow for students and others to interact with the map as well. RED has been presented at various expos such as the Dutch Design Week twice and the 4TU contest where we got to pitch our concept to the prime minister of the Netherlands.
-          <span className='quote'>“The fact that Kay has successfully combined the two-year Honors program with his regular Bachelor program at the Department of Industrial Design shows that he is an excellent and motivated student.” - Prof. I. Lopez Arteaga, Dean TU/e Honors Academy</span></p>
+          {/* <span className='quote'>“The fact that Kay has successfully combined the two-year Honors program with his regular Bachelor program at the Department of Industrial Design shows that he is an excellent and motivated student.” - Prof. I. Lopez Arteaga, Dean TU/e Honors Academy</span> */}
+          </p>
+          
+          
+          
           <iframe width="560" height="315" src="https://www.youtube.com/embed/-LZKdGwGRYs?rel=0" frameBorder="0" allowFullScreen="1"></iframe>
           <Squares onZoomClick={onZoomClick} img_hero="" img_1="./img/red/render.jpg" img_2="./img/red/tuecontest.jpg" img_3="./img/red/4tu.jpg" img_4="./img/red/ddwtable.jpg"/>
         

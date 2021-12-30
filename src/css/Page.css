@@ -12,6 +12,7 @@
     transition: opacity 0s;
     pointer-events: none;
     line-height: 1.2;
+    border-radius: var(--img-radius);
 }
 
 .exit.active{
@@ -97,6 +98,7 @@
     padding-top: 100%;
     background-size: cover;
     background-position: center center;
+    border-radius: var(--img-radius);
 }
 
 .squares div.contain{
@@ -145,6 +147,26 @@ audio{
     font-size: 14px;
     display: block;
     margin: 0.2rem 0 1.75rem 0;
+    opacity: 0.8;
+}
+
+.quote{
+    margin: 2rem 0 4rem 0;
+    display: grid;
+    grid-template-columns: 4rem 1fr;
+    grid-column-gap: 1.5rem;
+}
+
+.quote .profile{
+    width: 4rem;
+    height: 4rem;
+}
+
+.quote div:nth-child(even){
+    font-style: italic;
+    font-size: 14px;
+    display: block;
+    /* margin-top: 0.2rem; */
     opacity: 0.8;
 }
 

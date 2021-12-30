@@ -8,7 +8,16 @@ function Fbp({onZoomClick}) {
           <h2>Ambient Office</h2>
           <p>Connecting remote workers through ambient sounds and rich interaction.</p>
           <h3>About</h3>
-          <p>Ambient Office is the result of my thesis, it's a tool which helps remote workers to connect with each other and enhance the feeling of inclusiveness. It does this by providing a visual and auditory overview of a digital office space through which the user can see and hear what coworkers are also working from home and what they are doing. Through a tangible interface, the user can 'walk' through the office and easily start conversations or join conference calls.</p>
+          <p>Ambient Office is the result of my thesis, it's a tool which helps remote workers to connect with each other and enhance the feeling of inclusiveness. It does this by providing a visual and auditory overview of a digital office space through which the user can see and hear what coworkers are also working from home and what they are doing. Through a tangible interface, the user can 'walk' through the office and easily start conversations or join conference calls.
+            <br/><br/>
+            <b>Context:</b> Bachelor Thesis, TU/e<br/>
+            <b>When:</b> Fall Semester, 2020
+
+          </p>
+          <div className='quote'>
+            <div className='profile' style={{backgroundImage: "url('./img/quotes/bart.jpg'"}}></div>
+            <div>“Looking back at over a decade of experience I can only say that Kay was among the most self-propelling students I have seen at their final Bachelor's level. His hands-on approach, combined with a sharp academic mind, made that Kay not only had working prototypes from early on in his process, but also that he was capable of backing these experienceable models up with a thorough and solid rationale. He always works with his coaches' advice, is independent and eager to learn. I would recommend him to anyone” - Prof. B. J. Hengeveld, Project Coach TU/e</div>
+          </div>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/nwUdHMbM90k?start=27" frameBorder="0" allowFullScreen="1"></iframe>
 
           <h3>Problem</h3>
@@ -67,7 +76,7 @@ function Fbp({onZoomClick}) {
           Finally, all the electronics were mounted and programmed, see the interactive visual bellow the check out what is exactly inside of the Ambient Office. A P5js sketch runs on the Raspberry Pi which is connected to the rotary encoder and button of the dial through an Arduino Nano. The RPi connects to the LCD to show the visual overview and to the audio amplifier to play stereo ambient office sounds.
           <br/><br/>
           <a href='./files/fbp.pdf' target="_blank"><u>Report</u></a>
-          <span className='quote'>“Looking back at over a decade of experience I can only say that Kay was among the most self-propelling students I have seen at their final Bachelor's level. His hands-on approach, combined with a sharp academic mind, made that Kay not only had working prototypes from early on in his process, but also that he was capable of backing these experienceable models up with a thorough and solid rationale. He always works with his coaches' advice, is independent and eager to learn. I would recommend him to anyone” - Prof. B. J. Hengeveld, Project Coach</span>
+          {/* <span className='quote'>“Looking back at over a decade of experience I can only say that Kay was among the most self-propelling students I have seen at their final Bachelor's level. His hands-on approach, combined with a sharp academic mind, made that Kay not only had working prototypes from early on in his process, but also that he was capable of backing these experienceable models up with a thorough and solid rationale. He always works with his coaches' advice, is independent and eager to learn. I would recommend him to anyone” - Prof. B. J. Hengeveld, Project Coach</span> */}
           </p>
           <Squares onZoomClick={onZoomClick} img_hero="./img/fbp.jpg" img_1="./img/ambient_office/ou1.jpeg" img_2="./img/ambient_office/ou2.png" img_3="./img/ambient_office/ou3.jpeg" img_4="./img/ambient_office/ou4.gif"/>
           <Squares onZoomClick={onZoomClick} img_hero="./img/ambient_office/electronics.jpg" img_1="./img/ambient_office/ou5.jpg" img_4="./img/ambient_office/tuiwithcall.gif" img_2="./img/ambient_office/ou7.jpg" img_3="./img/ambient_office/2.gif"/>

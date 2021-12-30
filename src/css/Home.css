@@ -120,10 +120,13 @@
 
 }
 
+
+
 .box .background {
   padding-bottom: 56%;
   background-size: 100% auto;
   background-position: center center;
+  border-radius: var(--img-radius);
 
   transition: padding-bottom 0s;
 }
@@ -170,7 +173,7 @@
     top: 0;
     left: 0;
     margin: 0 auto;
-    padding: 96px 0;
+    padding: 60vh 0 4rem 0;
     width: var(--container-width);
     max-width: 736px;
     
@@ -218,6 +221,9 @@
     transition: padding-bottom 0s;
     padding-bottom: 50%;
   }
+  .box.inactive:not(.active){
+    display: none;
+  }
   .box .info{
     position: relative;
     margin-top: 0px;
@@ -234,7 +240,7 @@
 
 @media only screen and (max-width: 600px) {
   .head-about{
-    padding: 192px 0;
+    padding: 55vh 0 2rem 0;
   }
   .box{
     grid-template-columns: 1fr;

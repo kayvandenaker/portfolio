@@ -5,7 +5,7 @@ function Box({onLinkClick, hover, name, image, title, info}) {
     return (
         <Link 
             to={name}
-            className={`box ${(useLocation().pathname === "/" + name) ? "active" : ""} ${(hover === name) ? "hovered" : ""}`}  
+            className={`box ${(useLocation().pathname === "/" + name) ? "active" : ""} ${(hover === name) ? "hovered" : ""} ${(useLocation().pathname === "/") ? "" : "inactive"}  `}  
             onClick={onLinkClick}
         >
             <div className='background' style={{backgroundImage: "url(" + image + ""}}></div>
