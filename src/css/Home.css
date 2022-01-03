@@ -240,7 +240,7 @@
 
 @media only screen and (max-width: 600px) {
   .head-about{
-    padding: 55vh 0 2rem 0;
+    padding: 55vh 0 4rem 0;
   }
   .box{
     grid-template-columns: 1fr;

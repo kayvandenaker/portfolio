@@ -25,7 +25,7 @@ const menuItems = [
     title: "Arch",
     href: "arch",
     color: "#978e91",
-    thumb: { src: "./img/arch.png", caption: "Arch bridges the gap between doctor and patient through an interactive AR enviroment." }
+    thumb: { src: "./img/arch.png", caption: "Arch connects remote doctors to their patients through an interactive AR enviroment." }
   },
   {
     title: "BMW Group",
@@ -37,7 +37,7 @@ const menuItems = [
     title: "Ambient Office",
     href: "ambient-office",
     color: "#9f9184",
-    thumb: { src: "./img/fbp.jpg", caption: "Connecting remote workers through ambient sounds and rich interaction." }
+    thumb: { src: "./img/fbp.jpg", caption: "Connecting remote workers through ambient interactive soundscapes." }
   },
   {
     title: "Team RED",
@@ -49,13 +49,13 @@ const menuItems = [
     title: "Immersive Learning",
     href: "immersive-learning",
     color: "#87746d",
-    thumb: { src: "./img/immersive.jpg", caption: "Research the efficiency of virtual reality language learning in high schools." }
+    thumb: { src: "./img/immersive.jpg", caption: "Researching the efficiency of virtual reality language learning in high schools." }
   },
   {
     title: "Experiments",
     href: "experiments",
     color: "#806c5a",
-    thumb: { src: "./img/experiments.jpg", caption: "A collection of hard- and software experiments." }
+    thumb: { src: "./img/experiments.jpg", caption: "A collection of experiments with hardware, software and everything in between." }
   }
 ];
 

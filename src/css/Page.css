@@ -89,10 +89,6 @@
     grid-gap: 1rem;
     margin: 1rem 0 1rem 0;
 }
-
-.squares-box + h3{
-    margin-top: 4rem;
-}
   
 .squares div{
     padding-top: 100%;
@@ -109,7 +105,7 @@
 .half{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2rem;
+    grid-column-gap: 1rem;
 }
 
 audio{
@@ -150,8 +146,14 @@ audio{
     opacity: 0.8;
 }
 
+.context{
+    margin-bottom: 4rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
 .quote{
-    margin: 2rem 0 4rem 0;
+    margin: 2rem 0 2rem 0;
     display: grid;
     grid-template-columns: 4rem 1fr;
     grid-column-gap: 1.5rem;
@@ -167,6 +169,11 @@ audio{
     font-size: 14px;
     display: block;
     /* margin-top: 0.2rem; */
+    opacity: 0.8;
+}
+
+.details{
+    font-size: 14px;
     opacity: 0.8;
 }
 
@@ -189,7 +196,7 @@ audio{
         width: 128px;
         height: 128px;
     }
-    .profile + div{
+    .about-grid .profile + div{
         text-align: center;
     }
 

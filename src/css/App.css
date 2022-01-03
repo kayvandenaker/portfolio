@@ -10,7 +10,14 @@
   --img-radius: 2px;
 
   line-height: 1.4;
+  scroll-behavior: smooth;
+  
 }
+/* @media only screen and (max-width: 1024px), only screen and (hover: none){
+  :root{
+    scroll-behavior: auto;
+  }
+} */
 
 @media only screen and (max-width: 1024px) {
   :root{
@@ -31,6 +38,9 @@
 }
 
 
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
 @import url('https://rsms.me/inter/inter.css');
 html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
@@ -40,6 +50,7 @@ html { font-family: 'Inter', sans-serif; }
 
 *{
   font-family: "Inter";
+  
   margin: 0;
   padding: 0;
 }
@@ -71,27 +82,29 @@ video{
   border-radius: var(--img-radius);
 }
 
-h1{
-  font-size: 3rem;
+h1, h2, h3{
+  font-family: 'Space Grotesk';
+  /* font-family: 'Montserrat'; */
   font-weight: 650;
   color: black;
+}
+
+h1{
+  font-size: 3rem;
 }
 
 h2{
-  font-size: 2rem;
-  font-weight: 650;
-  color: black;
+  font-size: 2.25rem;
 }
 
 h3{
-  font-size: 20px;
-  font-weight: 650;
-  color: black;
+  font-size: 22px;
   margin: 3rem 0 1rem 0;
 }
 
 b{
   color: black;
+  font-weight: 600;
 }
 
 iframe + .squares-box img{
@@ -102,8 +115,12 @@ iframe + .squares-box .squares{
   margin-top: 0;
 }
 
-iframe + h3, video + h3, img + h3{
-  margin-top: 4rem;
+iframe + h3, video + h3, img + h3, .squares-box + h3, iframe + h2, video + h2, img + h2, .squares-box + h2, div + h2{
+  margin-top: 5rem;
+}
+
+iframe + p, video + p, img + p, .squares-box + p{
+  margin-top: 2rem;
 }
 
 a{
@@ -115,6 +132,12 @@ p{
   margin-bottom: 2rem;
 }
 
+hr{
+  margin: 2rem 0 6rem 0;
+  height: 1px;
+  background-color: #eee;
+  border: none;
+}
 
 
 @media only screen and (max-width: 1024px) {
