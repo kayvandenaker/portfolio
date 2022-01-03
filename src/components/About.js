@@ -20,7 +20,7 @@ function About() {
           I combine technical problem solving and creative thinking to design innovative concepts and immersive prototypes. My approach is hands-on and explorative while focused on the users’ and societal needs. */}
           My name is Kay van den Aker (he/him), I'm a design and tech enthousiast who likes to expore everything in between those. My approach is very hands-on and experience prototyping focused; showing is explaining, seeing is believing.
           <br/><br/>
-          Besides design, I love to travel, do sports in/on/around water or anything with a board; surf, dive, skateboard, swim, snowboard or sail. You know, life is about living; work hard, play hard 🏄
+          Besides design, I love to travel, do sports in/on/around water or anything with a board; surf, dive, skateboard, swim, snowboard or sail. You know, life is about living 🏄
 
           <h3>Contact</h3>
           <div className='about-grid'>
