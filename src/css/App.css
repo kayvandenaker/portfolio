@@ -70,7 +70,7 @@ img{
 iframe{
   width: 100%;
   display: block;
-  height: calc(736px * 0.56);
+  height: calc(736px * 9 / 16);
   margin-bottom: 1rem;
   border-radius: var(--img-radius);
 }
@@ -142,8 +142,8 @@ hr{
 
 @media only screen and (max-width: 1024px) {
   iframe{
-    height: calc((100vw - 2 * var(--margin-big)) * 0.56);
-    max-height: calc(736px * 0.56);
+    height: calc((100vw - 2 * var(--margin-big)) * 9 / 16);
+    max-height: calc(736px * 9 / 16);
   }
   .img-zoomer{
     pointer-events: none;

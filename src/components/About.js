@@ -31,18 +31,18 @@ function About() {
           </div>
           <h3>Experience</h3>
           <div className='about-grid'>
-            <div>2022 - now</div><div>Design Technologist at Rolls-Royce Motor Cars
+            <div>2022 - now</div><div>Creative Technologist at Rolls-Royce Motor Cars
               <span>Goodwood, United Kingdom <br/><br/>Remote and on-site consultant for interactive digital and physical mockups in the bespoke cars department.</span>
             </div>
-            <div>2021</div><div>Design Technologist at BMW Group 
+            <div>2021</div><div>Creative Technologist at BMW Group 
               <span>Munich, Germany <br/><br/> Intern at the early-phase design and development department. (concept cars) <br/> Translating designers’ ideas into interactive experience prototypes combining various hardware and software to explore, iterate and validate concepts in the beginning of the design process. (arduino, kinect, unity, madmapper, leap motion, touchdesigner, protopie)</span>
             </div>
             <div>2017 - 2019</div><div>Design Technologist / Co-Founder at Team RED
             <span>Eindhoven, Netherlands <br/><br/> In the Honors Academy I co-founded Team RED, a student startup focused on the acceleration of the energy transition. RED provides an interactive map on which the impact of sustainable innovations can be simulated to gain overview and improve decision making. I was responsible for managing the design team, interaction design, hardware/software prototyping and branding.</span>
             </div>
-            <div>2018 - 2019</div><div>Chairman at Study Association Lucid
+            {/* <div>2018 - 2019</div><div>Chairman at Study Association Lucid
               <span>Eindhoven, Netherlands<br/><br/> Leading the board, guiding the association and facilitating activities that strengthen the community, support the education and prepare students for their career.</span>
-            </div>
+            </div> */}
             <div>2019</div><div>Surf Instructor at Flowtrack
               <span>San Vicente de la Barquera, Spain<br/><br/> Surf Instructor (ISA 1) and Life Saver (ILS) for 13+ and 16+ surf camps.</span>
             </div>
@@ -56,7 +56,7 @@ function About() {
               <span>Umeå, Sweden</span>
             </div>
             <div>2016 - 2021</div><div>BSc, Industrial Design w/ honors at Eindhoven University of Technology
-              <span>Eindhoven, Netherlands <br/><br/> Student Council Honors Academy<br/>Surf Committee of Avalanche Boarders</span>
+              <span>Eindhoven, Netherlands <br/><br/> Chairman of Study Association Lucid <br/>Student Council of the Honors Academy<br/>Surf Committee of Avalanche Boarders</span>
             </div>
             <div>2019 - 2020</div><div>Exchange, Industrial Design at Umeå Institute of Design
               <span>Umeå, Sweden</span>
