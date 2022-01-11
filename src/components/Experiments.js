@@ -7,7 +7,7 @@ function Experiments({onZoomClick}) {
           <h2>Experiments</h2>
           <p>A collection of experiments with hardware, software and everything in between.</p>
           <h3>Tactile Slider</h3>
-          <p>Tactile slider texture exploration as media controller.<br/> Arduino with Adafruit MPR121 capacitive touch sensor + Processing for the album animations.</p>
+          <p>Slider texture exploration as media controller.<br/> Arduino with Adafruit MPR121 capacitive touch sensor + Processing for the album animations.</p>
           <video controls src="./img/experiments/slider.mp4" type="video/mp4" autoPlay={true} muted loop playsInline>Your browser does not support the video tag.</video>
           <img src="./img/experiments/slider.jpg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
 

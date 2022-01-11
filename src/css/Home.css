@@ -1,9 +1,8 @@
 .head{
   width: 100vw;
-  /* height: 100vh; */
   color: white;
   font-weight: 200;
-  /* animation: fadeIn 0.6s ease-out 0s 1; */
+  animation: fadeIn 0.6s ease-out 0s 1;
 }
 
 .head h1{
@@ -12,6 +11,7 @@
 }
 
 #head-fiber{
+  animation: fadeIn 1.2s ease-out 0s 1;
   width: 100vw !important;
   height: 100vh;
   background-color: black;
@@ -22,7 +22,6 @@
   filter: invert(1) brightness(70%);
   transition: filter 0.6s ease;
   z-index: -1;
-  animation: fadeIn 1.2s ease-out 0s 1;
 }
 
 #head-fiber.blur{

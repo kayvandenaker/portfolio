@@ -18,21 +18,21 @@ function About() {
           {/* My name is Kay van den Aker (he/him). I am an interaction designer and creative technologist from the Netherlands. I am fascinated by the relationship between people and the ever smarter getting world and how design allows us to shape this alliance.
           <br/><br/>
           I combine technical problem solving and creative thinking to design innovative concepts and immersive prototypes. My approach is hands-on and explorative while focused on the users’ and societal needs. */}
-          My name is Kay van den Aker (he/him), I'm a design and tech enthousiast who likes to expore everything in between those. My approach is very hands-on and experience prototyping focused; showing is explaining, seeing is believing.
+          My name is Kay van den Aker (he/him), I'm a design and tech enthusiast who likes to explore everything in between them. My approach is very hands-on and experience prototyping focused; showing is explaining, seeing is believing.
           <br/><br/>
-          Besides design, I love to travel, do sports in/on/around water or anything with a board; surf, dive, skateboard, swim, snowboard or sail. You know, life is about living 🏄
+          Besides work, I love to travel, do water sports or anything with a board; surf, dive, skateboard, swim, snowboard or sail. You know, life is about living 🏄
 
           <h3>Contact</h3>
           <div className='about-grid'>
             <div>Email</div><div><a href='mailto:kayvandenaker@gmail.com'>kayvandenaker@gmail.com</a></div>
             <div>LinkedIn</div><div><a href='https://www.linkedin.com/in/kayvandenaker/' target="_blank">wwww.linkedin.com/in/kayvandenaker</a></div>
             <div>Instagram</div><div><a href='https://www.instagram.com/aker.industries/' target="_blank">@aker.industries</a></div>
-            <div>Resume</div><div>aker.pdf</div>
+            {/* <div>Resume</div><div>aker.pdf</div> */}
           </div>
           <h3>Experience</h3>
           <div className='about-grid'>
             <div>2022 - now</div><div>Creative Technologist at Rolls-Royce Motor Cars
-              <span>Goodwood, United Kingdom <br/><br/>Remote and on-site consultant for interactive digital and physical mockups in the bespoke cars department.</span>
+              <span>Goodwood, United Kingdom <br/><br/>Creating interactive mockups at the bespoke department, both remote and on-site.</span>
             </div>
             <div>2021</div><div>Creative Technologist at BMW Group 
               <span>Munich, Germany <br/><br/> Intern at the early-phase design and development department. (concept cars) <br/> Translating designers’ ideas into interactive experience prototypes combining various hardware and software to explore, iterate and validate concepts in the beginning of the design process. (arduino, kinect, unity, madmapper, leap motion, touchdesigner, protopie)</span>
