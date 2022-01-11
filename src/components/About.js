@@ -38,7 +38,7 @@ function About() {
               <span>Munich, Germany <br/><br/> Intern at the early-phase design and development department. (concept cars) <br/> Translating designers’ ideas into interactive experience prototypes combining various hardware and software to explore, iterate and validate concepts in the beginning of the design process. (arduino, kinect, unity, madmapper, leap motion, touchdesigner, protopie)</span>
             </div>
             <div>2017 - 2019</div><div>Design Technologist / Co-Founder at Team RED
-            <span>Eindhoven, Netherlands <br/><br/> In the Honors Academy I co-founded Team RED, a student startup focused on the acceleration of the energy transition. RED provides an interactive map on which the impact of sustainable innovations can be simulated to gain overview and improve decision making. I was responsible for managing the design team, interaction design, hardware/software prototyping and branding.</span>
+            <span>Eindhoven, Netherlands <br/><br/> Student startup focused on the acceleration of the energy transition by providing an interactive map on which the impact of sustainable innovations can be simulated.</span>
             </div>
             {/* <div>2018 - 2019</div><div>Chairman at Study Association Lucid
               <span>Eindhoven, Netherlands<br/><br/> Leading the board, guiding the association and facilitating activities that strengthen the community, support the education and prepare students for their career.</span>
@@ -47,7 +47,7 @@ function About() {
               <span>San Vicente de la Barquera, Spain<br/><br/> Surf Instructor (ISA 1) and Life Saver (ILS) for 13+ and 16+ surf camps.</span>
             </div>
             <div>2018</div><div>Co-Design Facilitator for Newcastle University
-              <span>Lunteren, Netherlands<br/><br/> I worked as facilitator for Myto, a co-design event about mitochondrial disease organized by Open Lab from the Newcastle University. During this weekend, I got to know people with mitochondrial disease and their carers and together we designed solutions for their everyday problems.</span>
+              <span>Lunteren, Netherlands<br/><br/> Facilitator for Myto, a co-design event about mitochondrial disease organized by Open Lab from the Newcastle University.</span>
             </div>
           </div>
           <h3>Education</h3>

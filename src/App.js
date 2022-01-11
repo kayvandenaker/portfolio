@@ -22,8 +22,8 @@ import Box from './components/Box'
 
 //git add .
 //git commit -m "fav-icon"
-//git push -u origin main
-
+//git push
+ 
 const menuItems = [
   {
     title: "Arch",
