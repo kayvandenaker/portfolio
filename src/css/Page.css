@@ -146,6 +146,10 @@ audio{
     opacity: 0.8;
 }
 
+iframe + .context{
+    border-top: none;
+}
+
 .context{
     margin-bottom: 4rem;
     padding-top: 1rem;

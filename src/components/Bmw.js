@@ -6,7 +6,7 @@ function Bmw({onZoomClick}) {
         <div className='page-content'>
           <h2>BMW Group</h2>
           <p>Highlights of my work as design technologist at the BMW Group headquarters in Munich.</p>
-          <h3>In short…</h3>
+          <h3>Summary</h3>
           <p>My main role within BMW Group was to explore, iterate and validate design proposals early in the process (mainly for the BMW i Vision Circular). I often found myself with designers, artists, composers and engineers thinkering to make their ideas experience-able. I worked with various hard- and software tools such as Arduino, Kinect, Unity, MadMapper, Leap Motion, TouchDesigner and ProtoPie. 
             
           <br/><br/>
@@ -27,7 +27,7 @@ function Bmw({onZoomClick}) {
           {/* <b>Mentor:</b> Daniel Fischer, UX/UI Designer  */}
           </div>
 
-          <h2>Some Highlights of my work</h2>
+          <h2>Some highlights of my work</h2>
 
           <h3>Dashboard animation</h3>
           <p>I was end responsible for the dashboard particle animation; initially I explored various ways of mapping light into the crystal and later, together with artists and composers, creating interactive animations in Unity VFX while integrating the gesture tracking of the engineering team. Low-fi mockups were made throughout the process using Leap Motion, Kinect and TouchDesigner.</p>

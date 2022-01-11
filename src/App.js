@@ -20,6 +20,10 @@ import Box from './components/Box'
 // import RedThumb from "./images/red.jpg";
 // import ExpThumb from "./images/experiments.jpg";
 
+//git add .
+//git commit -m "fav-icon"
+//git push -u origin main
+
 const menuItems = [
   {
     title: "Arch",

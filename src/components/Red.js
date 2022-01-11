@@ -10,10 +10,11 @@ function Red({onZoomClick}) {
           <h2>Team RED</h2>
           <p>Tangible interactable on which stakeholders collaborate and explore energy scenarios together.</p>
           
-          <h3>In short…</h3>
-          <p>The biggest bottleneck in the energy transition for campuses, such as the Eindhoven University of Technology, is the lack of overview of the current situation, the problems and the impact of sustainable innovations. Team RED is tackling this issue by providing an innovation guiding platform to gain overview and assist stakeholders in decision making.
+          <h3>Summary</h3>
+          <p>The biggest bottleneck in the energy transition for campuses, such as the Eindhoven University of Technology, is the lack of overview of the current situation, the problems and the impact of sustainable innovations. Team RED is tackling this issue by providing an innovation guiding platform to gain an overview and assist stakeholders in decision making.
           {/* <br/><br/> */}
           </p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/87QHXdIrvMM?rel=0" frameBorder="0" allowFullScreen="1"></iframe>
           <div className='quote'>
             <div className='profile' style={{backgroundImage: "url('./img/quotes/inez.jpg'"}}></div>
             <div>
@@ -26,9 +27,8 @@ function Red({onZoomClick}) {
             <b>When:</b> 2017 - 2019<br/>
             <b>Partner:</b> <a href='https://www.exentr.com/' target="_blank">Exentr</a>
           </div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/87QHXdIrvMM?rel=0" frameBorder="0" allowFullScreen="1"></iframe>
 
-          <h2>The Process</h2>
+          <h2>Process highlights</h2>
           <h3>Ideation</h3>
           <p>Our initial idea for the platform was digital but after prototyping, we quickly shifted towards physical to allow for a richer multi-user and collaborative experience. 
           </p>

@@ -7,11 +7,12 @@ function Fbp({onZoomClick}) {
         <div className='page-content'>
           <h2>Ambient Office</h2>
           <p>Connecting remote workers through ambient interactive soundscapes.</p>
-          <h3>In short…</h3>
-          <p>Ambient Office is the result of my thesis, it's a tool which helps remote workers to connect with each other and enhance the feeling of inclusiveness. It does so by providing a visual and auditory overview of a digital office space through which the user can see and hear what coworkers are also working from home and what they are doing. Through a tangible interface, the user can 'walk' through the office and easily start conversations or join group calls.
+          <h3>Summary</h3>
+          <p>Working remotely often distances people from their colleagues. Ambient Office is a tool that helps remote workers to connect by providing a digital office on which they can see and hear what their coworkers are doing. Through a dial, the user can walk through the office, start conversations or join group calls.
             {/* <br/><br/> */}
 
           </p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/nwUdHMbM90k?start=27" frameBorder="0" allowFullScreen="1"></iframe>
           <div className='quote'>
             <div className='profile' style={{backgroundImage: "url('./img/quotes/bart.jpg'"}}></div>
             <div>“Looking back at over a decade of experience I can only say that Kay was among the most self-propelling students I have seen at their final Bachelor's level. His hands-on approach, combined with a sharp academic mind, made that Kay not only had working prototypes from early on in his process, but also that he was capable of backing these experienceable models up with a thorough and solid rationale. He always works with his coaches' advice, is independent and eager to learn. I would recommend him to anyone” - Prof. B. J. Hengeveld, Project Coach TU/e</div>
@@ -20,9 +21,8 @@ function Fbp({onZoomClick}) {
             <b>Context:</b> Bachelor Thesis, TU/e<br/>
             <b>When:</b> Fall Semester, 2020
           </div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/nwUdHMbM90k?start=27" frameBorder="0" allowFullScreen="1"></iframe>
 
-          <h2>The Process</h2>
+          <h2>Process highlights</h2>
           <h3>Problem</h3>
           <p>The pandemic and problems that were arising were a big motivation and inspiration to design for connectivity among remote workers in an attempt to decrease loneliness and give people the feeling of involvement and inclusion with their colleagues.</p>
 
