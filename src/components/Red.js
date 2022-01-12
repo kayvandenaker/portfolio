@@ -18,7 +18,7 @@ function Red({onZoomClick}) {
           <div className='quote'>
             <div className='profile' style={{backgroundImage: "url('./img/quotes/inez.jpg'"}}></div>
             <div>
-              “The fact that Kay has successfully combined the two-year Honors program with his regular Bachelor program at the Department of Industrial Design shows that he is an excellent and motivated student.” - Prof. I. Lopez Arteaga, Dean TU/e Honors Academy
+              “The fact that Kay has successfully combined the two-year Honors program with his regular Bachelor program at the Department of Industrial Design shows that he is an excellent and motivated student.” — Prof. I. Lopez Arteaga, Dean TU/e Honors Academy
             </div>
           </div>
           <div className='context'>

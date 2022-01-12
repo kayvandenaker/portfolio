@@ -15,7 +15,7 @@ function Fbp({onZoomClick}) {
           <iframe width="560" height="315" src="https://www.youtube.com/embed/nwUdHMbM90k?start=27" frameBorder="0" allowFullScreen="1"></iframe>
           <div className='quote'>
             <div className='profile' style={{backgroundImage: "url('./img/quotes/bart.jpg'"}}></div>
-            <div>“Looking back at over a decade of experience I can only say that Kay was among the most self-propelling students I have seen at their final Bachelor's level. His hands-on approach, combined with a sharp academic mind, made that Kay not only had working prototypes from early on in his process, but also that he was capable of backing these experienceable models up with a thorough and solid rationale. He always works with his coaches' advice, is independent and eager to learn. I would recommend him to anyone” - Prof. B. J. Hengeveld, Project Coach TU/e</div>
+            <div>“Looking back at over a decade of experience I can only say that Kay was among the most self-propelling students I have seen at their final Bachelor's level. His hands-on approach, combined with a sharp academic mind, made that Kay not only had working prototypes from early on in his process, but also that he was capable of backing these experienceable models up with a thorough and solid rationale. He always works with his coaches' advice, is independent and eager to learn. I would recommend him to anyone” — Prof. B. J. Hengeveld, Project Coach TU/e</div>
           </div>            
           <div className='context'>
             <b>Context:</b> Bachelor Thesis, TU/e<br/>
@@ -125,7 +125,7 @@ function Fbp({onZoomClick}) {
           <a href='./files/fbp.pdf' target="_blank"><u>Report</u></a>
           </p>
           <img src="./img/ambient_office/electronics.jpg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
-          <p><b>Try out the UI ↓:</b>  Mouse ↔ scrolls through the office, click initiates a call. 
+          <p className='web-prototype'><b>↓ Try out the UI:</b>  Mouse ↔ scrolls through the office, click initiates a call. 
           </p>
           {/* <br/><br/> */}
           

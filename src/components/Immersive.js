@@ -19,7 +19,7 @@ function Immersive({onZoomClick}) {
           <Squares onZoomClick={onZoomClick} img_1="./img/immersive/vr2.png" img_2="./img/immersive/vr.jpg" img_3="./img/immersive/vr.png" img_4="./img/immersive/research.png"/>
           <div className='quote'>
             <div className='profile' style={{backgroundImage: "url('./img/quotes/erik.jpg'"}}></div>
-            <div>“The VR experience was really well made, a full game that is close to what an actual game used in language lessons could look/play like. It's clear a lot of work went into it, and the design of being a spy infiltrating the castle of a French king is very inspiring.” - Prof. E. D. van der Spek, Project Coach TU/e</div>
+            <div>“The VR experience was really well made, a full game that is close to what an actual game used in language lessons could look/play like. It's clear a lot of work went into it, and the design of being a spy infiltrating the castle of a French king is very inspiring.” — Prof. E. D. van der Spek, Project Coach TU/e</div>
           </div>
           <div className='context'>
           <b>Context:</b> Design Research Project, TU/e<br/>

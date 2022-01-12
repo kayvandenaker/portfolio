@@ -18,7 +18,7 @@ function Bmw({onZoomClick}) {
             <div>
                 “Kay did a fantastic job within our design team! He helped us shaping future in-car interactions with tons of mockups ( sketched, modeled, 3D Printed, soldered, programmed, iterated). Kay matched perfectly in our team - his behavior was always a professional, nice and appreciated one.
                 His skills were already outstanding and even new tools didn’t scared him at all - with the help of team members, tutorials and manuals he showed a perfect learning curve.
-                We hope he comes back for his next internship or directly applies for a job!” - Daniel Fischer, UX/UI Designer BMW Group
+                We hope he comes back for his next internship or directly applies for a job!” — Daniel Fischer, UX/UI Designer BMW Group
             </div>
           </div>
           <div className='context'>

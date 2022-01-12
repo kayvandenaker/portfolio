@@ -74,6 +74,10 @@ iframe{
   border-radius: var(--img-radius);
 }
 
+iframe.mac{
+  height: calc(736px * 10 / 16);
+}
+
 video{
   width: 100%;
   display: block;
@@ -138,11 +142,22 @@ hr{
   border: none;
 }
 
+li{
+  margin-left: 1.5rem;
+}
+
+ul{
+  margin: 0.5rem 0;
+}
 
 @media only screen and (max-width: 1024px) {
   iframe{
     height: calc((100vw - 2 * var(--margin-big)) * 9 / 16);
     max-height: calc(736px * 9 / 16);
+  }
+  iframe.mac{
+    height: calc((100vw - 2 * var(--margin-big)) * 10 / 16);
+    max-height: calc(736px * 10 / 16);
   }
   .img-zoomer{
     pointer-events: none;
