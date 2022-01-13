@@ -50,6 +50,9 @@ html { font-family: 'Inter', sans-serif; }
 
 *{
   font-family: "Inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
   
   margin: 0;
   padding: 0;
@@ -85,24 +88,37 @@ video{
   border-radius: var(--img-radius);
 }
 
-h1, h2, h3{
+.image-details{
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+}
+
+h1, h2{
   font-family: 'Space Grotesk';
-  /* font-family: 'Montserrat'; */
-  font-weight: 650;
+}
+
+h2, h3{
   color: black;
 }
 
 h1{
   font-size: 3rem;
+  font-weight: 600;
 }
 
 h2{
-  font-size: 2.25rem;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
 }
 
 h3{
-  font-size: 22px;
-  margin: 3rem 0 1rem 0;
+  margin: 3rem 0 0.75rem 0;
+  font-size: 1.2rem;
+  font-family: "Inter";
+  font-weight: 600;
 }
 
 b{
@@ -149,6 +165,8 @@ li{
 ul{
   margin: 0.5rem 0;
 }
+
+
 
 @media only screen and (max-width: 1024px) {
   iframe{

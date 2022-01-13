@@ -29,36 +29,42 @@ const menuItems = [
     title: "Arch",
     href: "arch",
     color: "#978e91",
-    thumb: { src: "./img/arch.png", caption: "Arch connects remote doctors to their patients through an interactive AR enviroment." }
+    year: "2021",
+    thumb: { src: "./img/arch.png", caption: "Connecting remote doctors to their patients through an AR enviroment." }
   },
   {
     title: "BMW Group",
     href: "bmw",
     color: "#5a6d7c",
-    thumb: { src: "./img/bmw.jpg", caption: "Highlights of my work as design technologist at the BMW Group headquarters in Munich." }
+    year: "2021",
+    thumb: { src: "./img/bmw.jpg", caption: "Highlights of my work as creative technologist at the BMW Group." }
   },
   {
     title: "Ambient Office",
     href: "ambient-office",
     color: "#9f9184",
+    year: "2020",
     thumb: { src: "./img/fbp.jpg", caption: "Connecting remote workers through ambient interactive soundscapes." }
   },
-  {
-    title: "Team RED",
-    href: "team-red",
-    color: "#6b605b",
-    thumb: { src: "./img/red.jpg", caption: "Collaborating and exploring future energy scenarios together." }
-  },
-  {
-    title: "Immersive Learning",
-    href: "immersive-learning",
-    color: "#87746d",
-    thumb: { src: "./img/immersive.jpg", caption: "Researching the efficiency of virtual reality language learning in high schools." }
-  },
+  // {
+  //   title: "Team RED",
+  //   href: "team-red",
+  //   color: "#6b605b",
+  //   year: "2019",
+  //   thumb: { src: "./img/red.jpg", caption: "Collaborating and exploring future energy scenarios together." }
+  // },
+  // {
+  //   title: "Immersive Learning",
+  //   href: "immersive-learning",
+  //   color: "#87746d",
+  //   year: "2018",
+  //   thumb: { src: "./img/immersive.jpg", caption: "Researching the efficiency of virtual reality language learning in high schools." }
+  // },
   {
     title: "Experiments",
     href: "experiments",
     color: "#806c5a",
+    year: "ongoing",
     thumb: { src: "./img/experiments.jpg", caption: "A collection of experiments with hardware, software and everything in between." }
   }
 ];
@@ -90,17 +96,20 @@ function App() {
             <div id="head-glow" className={(hover !== "") ? "active" : ""} style={{background: "radial-gradient(" + color + "66 0%, " + color + "00 70%)"}}></div>
             <div className='head-about'>
               <h1>Kay van den Aker</h1>
-              Designer and technologist from the Netherlands who explores, iterates and communicates through experience prototyping. Currently working at Rolls-Royce and mastering Interaction Design at Umeå Institute of Design.
+              Designer and technologist who explores, iterates and communicates through experience prototyping. <br/><br/>Currently working at <span className='white'>Rolls-Royce</span> and mastering Interaction Design at <span className='white'>Umeå Institute of Design</span>.
               <br /><br />
-              <span className='grey'>↳</span> <Link to="/about" onClick={handleLinkClick}>About / Contact me</Link>
+              {/* <span className='grey'>↳</span> <Link to="/about" onClick={handleLinkClick}>About / Contact me</Link> */}
+              ↳ <span className='white'><Link to="/about" onClick={handleLinkClick}>About / Contact me</Link></span>
             </div>
             <div className='head-projects'>
-              <span className='grey'>Work</span>
+              <span className='work-normal'>Work</span>
               <div onMouseLeave={() => setHover("")}>
                 {menuItems.map((el, i) => (
+                  <div>
                   <Link onClick={handleLinkClick} key={"link-to-" + el.href} to={"/" + el.href} onMouseEnter={() => {setHover(el.href); setColor(el.color)}}>
-                    {el.title}
-                  </Link>
+                    <span className='white'>{el.title}</span></Link><span className='grey'> — {el.year}</span>
+                  
+                  </div>
                 ))}
               </div>
             </div>

@@ -26,6 +26,12 @@ function Experiments({onZoomClick}) {
           <video controls src="./img/experiments/kona.mp4" type="video/mp4" autoPlay={true} muted loop playsInline>Your browser does not support the video tag.</video>
           <img src="./img/experiments/kona.png" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
 
+          <h3>Immersive Learning</h3>
+          <p>Researching whether a virtual reality game improves the efficiency of learning foreign language. <br/> Read more in the <a href='./files/vr.pdf' target="_blank"><u>research paper</u></a>. Unity 3D for the VR game (group project). </p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Vx_r5u0Rj2I?start=3&rel=0" frameBorder="0" allowFullScreen="1"></iframe>
+          <img src="./img/immersive/vr.png" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
+          
+
           <h3>Desktop Switcher</h3>
           <p>Switching between desktops, clicky style. <br/>Adafruit 32U4 with microswitches emulating keyboard shortcuts ctrl + windows + left/right.</p>
           <video controls src="./img/experiments/desktop.mp4" type="video/mp4" autoPlay={true} muted loop playsInline>Your browser does not support the video tag.</video>

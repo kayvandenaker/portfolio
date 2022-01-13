@@ -5,7 +5,7 @@ function Bmw({onZoomClick}) {
     <div className='page-container'>
         <div className='page-content'>
           <h2>BMW Group</h2>
-          <p>Highlights of my work as design technologist at the BMW Group headquarters in Munich.</p>
+          <p>Highlights of my work as creative technologist at the BMW Group.</p>
           <h3>Summary</h3>
           <p>My main role within BMW Group was to explore, iterate and validate design proposals early in the process (mainly for the BMW i Vision Circular). I often found myself with designers, artists, composers and engineers thinkering to make their ideas experience-able. I worked with various hard- and software tools such as Arduino, Kinect, Unity, MadMapper, Leap Motion, TouchDesigner and ProtoPie. 
             
