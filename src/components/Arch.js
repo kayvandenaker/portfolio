@@ -6,13 +6,10 @@ function Arch({onZoomClick}) {
   return (
     <div className='page-container'>
         <div className='page-content'>
-          {/* <h2>Arch</h2>
-          <p>Connecting remote doctors to their patients through an AR enviroment.</p> */}
           <h2>Arch — Connecting remote doctors to their patients through an AR enviroment.</h2>
           <h3>Problem</h3>
           <p>Remote healthcare consultation is a big challenge, the screen of a video call limits the richness of the real world and makes the healthcare experience compromised for both doctor and patient. </p>
           <h3>Solution</h3>
-          {/* <p>We envision the future of remote healthcare to be more collaborative and connective, with an experience in which both doctors and patients can be more engaged in communicating with each other.</p> */}
           <p>
             {/* Arch bridges the remote gap by bringing the patient to the doctor's office through augmented reality, making the remote consultation more intuitive and engaging. Arch also lets the doctor feel the patient's vitals and facilitates collaborative interaction with medical data. */}
             Arch bridges the remote gap by bringing the patient to the doctor's office through augmented reality, making the remote consultation more intuitive and engaging. Arch also lets the doctor feel the patient's vitals through vibration in the central interface.
