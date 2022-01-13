@@ -4,10 +4,12 @@ function Bmw({onZoomClick}) {
   return (
     <div className='page-container'>
         <div className='page-content'>
-          <h2>BMW Group</h2>
-          <p>Highlights of my work as creative technologist at the BMW Group.</p>
+          <h2>BMW Group — Highlights of my work as creative technologist.</h2>
+          <p></p>
           <h3>Summary</h3>
-          <p>My main role within BMW Group was to explore, iterate and validate design proposals early in the process (mainly for the BMW i Vision Circular). I often found myself with designers, artists, composers and engineers thinkering to make their ideas experience-able. I worked with various hard- and software tools such as Arduino, Kinect, Unity, MadMapper, Leap Motion, TouchDesigner and ProtoPie. 
+          <p>My main role within BMW Group was to explore, iterate and validate design proposals early in the process (mainly for the BMW i Vision Circular). 
+            I often found myself with designers, artists, composers and engineers thinkering to make their ideas experience-able. 
+            I worked with various hard- and software tools such as Arduino, Kinect, Unity, MadMapper, Leap Motion, TouchDesigner and ProtoPie. 
             
           <br/><br/>
             The process pics are under NDA so these are only the fancy-schmancy visuals.
@@ -21,13 +23,12 @@ function Bmw({onZoomClick}) {
                 We hope he comes back for his next internship or directly applies for a job!” — Daniel Fischer, UX/UI Designer BMW Group
             </div>
           </div>
-          <div className='context'>
-          <b>Context:</b> Internship, <a href='https://www.bmwgroup.com/' target="_blank">BMW Group</a><br/>
-          <b>When:</b> Spring Semester, 2021 <br/>
-          {/* <b>Mentor:</b> Daniel Fischer, UX/UI Designer  */}
+          <div className='context quarter'>
+            <div><b>Context</b> <br/>6 months, spring 2021<br/>  Internship<br/>  <a href='https://www.bmwgroup.com/' target="_blank">BMW Group</a><br/></div>
+            <div><b>Supervisor</b><br/>Daniel Fischer</div>
           </div>
 
-          <h2>Some highlights of my work</h2>
+          <h2>What I worked on...</h2>
 
           <h3>Dashboard animation</h3>
           <p>I was end responsible for the dashboard particle animation; initially I explored various ways of mapping light into the crystal and later, together with artists and composers, creating interactive animations in Unity VFX while integrating the gesture tracking of the engineering team. Low-fi mockups were made throughout the process using Leap Motion, Kinect and TouchDesigner.</p>

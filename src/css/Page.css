@@ -149,7 +149,8 @@ audio{
     font-size: 14px;
     display: block;
     margin: 0.2rem 0 1.75rem 0;
-    opacity: 0.8;
+    /* opacity: 0.8; */
+    color: #757575;
 }
 
 iframe + .context{
@@ -160,11 +161,8 @@ iframe + .context{
     margin-bottom: 4rem;
     padding-top: 1rem;
     border-top: 1px solid #eee;
-    font-size: 0.9rem;
-}
-
-.context b {
-    font-weight: 650;;
+    font-size: 14px;
+    color: #757575;
 }
 
 .quote{
@@ -184,12 +182,14 @@ iframe + .context{
     font-size: 14px;
     display: block;
     /* margin-top: 0.2rem; */
-    opacity: 0.8;
+    /* opacity: 0.8; */
+    color: #757575;
 }
 
 .details{
     font-size: 14px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
+    color: #757575;
 }
 
 @media only screen and (max-width: 600px) {

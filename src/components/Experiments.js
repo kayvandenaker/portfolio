@@ -27,8 +27,9 @@ function Experiments({onZoomClick}) {
           <img src="./img/experiments/kona.png" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
 
           <h3>Immersive Learning</h3>
-          <p>Researching whether a virtual reality game improves the efficiency of learning foreign language. <br/> Read more in the <a href='./files/vr.pdf' target="_blank"><u>research paper</u></a>. Unity 3D for the VR game (group project). </p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Vx_r5u0Rj2I?start=3&rel=0" frameBorder="0" allowFullScreen="1"></iframe>
+          <p>Researching whether a virtual reality game improves the efficiency of learning foreign language. <br/> Read more in the <a href='./files/vr.pdf' target="_blank"><u>research paper</u></a> or check the <a href="https://youtu.be/Vx_r5u0Rj2I" target="_blank"><u>full video</u></a>. Game made using Unity 3D (group).</p>
+          {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/Vx_r5u0Rj2I?start=3&rel=0" frameBorder="0" allowFullScreen="1"></iframe> */}
+          <img src="./img/experiments/vr.gif" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
           <img src="./img/immersive/vr.png" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
           
 

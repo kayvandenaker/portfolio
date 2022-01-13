@@ -5,26 +5,54 @@ function Fbp({onZoomClick}) {
   return (
     <div className='page-container'>
         <div className='page-content'>
-          <h2>Ambient Office</h2>
-          <p>Connecting remote workers through ambient interactive soundscapes.</p>
-          <h3>Summary</h3>
-          <p>Working remotely often distances people from their colleagues. Ambient Office is a tool that helps remote workers to connect by providing a digital office on which they can see and hear what their coworkers are doing. Through a dial, the user can walk through the office, start conversations or join group calls.
-            {/* <br/><br/> */}
-
+          <h2>Ambient Office — Connecting remote workers through ambient interactive soundscapes.
+          </h2>
+          <h3>Problem</h3>
+          <p>
+            {/* Working remotely often distances people from their colleagues.  */}
+            The pandemic and problems that were arising were a big motivation and inspiration to design for connectivity among remote workers in an attempt to decrease loneliness and give people the feeling of involvement and inclusion with their colleagues.
           </p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/nwUdHMbM90k?start=27" frameBorder="0" allowFullScreen="1"></iframe>
+          <h3>Solution</h3>
+          <p>  Ambient Office is a tool that helps remote workers to connect by providing a digital office in which they can see and hear what their coworkers are doing. Through a dial, the user can walk through the office, start conversations or join group calls.
+            <blockquote>The interactive soundscape changes according to the location of the user in the office and is influenced by the amount of people in the room and what they are doing. </blockquote>
+          </p>
+          <div className='half'>
+            <div>
+            <img src="./img/ambient_office/2.gif" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
+              <div className='image-details'>Walking through the office with the various soundscapes.</div>
+            </div>
+            <div>
+            <img src="./img/ambient_office/tuiwithcall.gif" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
+            {/* <img src="./img/ambient_office/electronics.jpg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/> */}
+              <div className='image-details'>Initiating a video call.</div>
+            </div>
+          </div>
+
+          <p>  
+            Stereo speakers create an immersive sound experience helping the remote worker to stay connected with their digital colleagues, both for work and for fun.
+          Read more in the <a href='./files/fbp.pdf' target="_blank"><u>report</u></a>.
+          </p>
+
           <div className='quote'>
             <div className='profile' style={{backgroundImage: "url('./img/quotes/bart.jpg'"}}></div>
             <div>“Looking back at over a decade of experience I can only say that Kay was among the most self-propelling students I have seen at their final Bachelor's level. His hands-on approach, combined with a sharp academic mind, made that Kay not only had working prototypes from early on in his process, but also that he was capable of backing these experienceable models up with a thorough and solid rationale. He always works with his coaches' advice, is independent and eager to learn. I would recommend him to anyone” — Prof. B. J. Hengeveld, Project Coach TU/e</div>
           </div>            
-          <div className='context'>
+          {/* <div className='context'>
             <b>Context:</b> Bachelor Thesis, TU/e<br/>
             <b>When:</b> Fall Semester, 2020
+          </div> */}
+          <div className='context quarter'>
+            <div><b>Project Info</b> <br/>20 weeks, autumn 2020<br/> Bachelor Thesis<br/> Eindhoven University of Technology<br/></div>
+            <div><b>Supervisor</b><br/> Prof. B. J. Hengeveld</div>
           </div>
 
-          <h2>Process highlights</h2>
-          <h3>Problem</h3>
-          <p>The pandemic and problems that were arising were a big motivation and inspiration to design for connectivity among remote workers in an attempt to decrease loneliness and give people the feeling of involvement and inclusion with their colleagues.</p>
+          <h2>Concept Video</h2>
+          <br/>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/nwUdHMbM90k?start=27" frameBorder="0" allowFullScreen="1"></iframe>
+          
+          <h2>Highlights</h2>
+          {/* <h3>Problem</h3>
+          <p>The pandemic and problems that were arising were a big motivation and inspiration to design for connectivity among remote workers in an attempt to decrease loneliness and give people the feeling of involvement and inclusion with their colleagues.</p> */}
 
           <h3>Ideation</h3>
           <p>After brainstorming ideas, a concept that seemed promising was a device which showed a map of a digital office in which all the coworkers and their availability are shown and casual contact could be initiated. 
@@ -107,7 +135,7 @@ function Fbp({onZoomClick}) {
           <img src="./img/ambient_office/de0.jpg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
           {/* <Squares onZoomClick={onZoomClick} img_hero="./img/ambient_office/de0.jpg" img_1="./img/ambient_office/de1.jpg" img_2="./img/ambient_office/de2.png" img_3="./img/ambient_office/de3.png" img_4="./img/ambient_office/de4.png"/> */}
 
-          <h3>Outcome</h3>
+          <h3>Final Mockup</h3>
           {/* <img src="./img/fbp.jpg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/> */}
           <p>
           Quick MDF mockups were made to explore the shape and dimensions of the prototype. Afterwards, a render was used to explore materials like aluminium and fabric. The final enclosure was made using MDF as the sides would be covered by fabric, the front was made using a laser cutter. I designed a custom gear mechanism so the dial could ‘float’ over the screen. 
@@ -117,12 +145,15 @@ function Fbp({onZoomClick}) {
           <p>
           The interactive mockup was created to communicate and evaluate the concept. A lathe was used to create a custom aluminium dial to give the product a premium and polished look. The combination of fabric and aluminium were used as they gives a cosy yet professional aesthetic which suits the home office.
           </p>
+          <div className='half'>
+            <img src="./img/ambient_office/ou7.jpg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
+            <img src="./img/ambient_office/ou5.jpg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
+          </div>
 
-          <Squares onZoomClick={onZoomClick} img_1="./img/ambient_office/ou5.jpg" img_4="./img/ambient_office/tuiwithcall.gif" img_2="./img/ambient_office/ou7.jpg" img_3="./img/ambient_office/2.gif"/>
+          {/* <Squares onZoomClick={onZoomClick} img_1="./img/ambient_office/ou4.gif" img_4="./img/ambient_office/tuiwithcall.gif" img_2="" img_3="./img/ambient_office/2.gif"/> */}
           <p>
           Finally, all the electronics were mounted and programmed. A P5.js sketch runs on the Raspberry Pi which is connected to the rotary encoder and button of the dial through an Arduino Nano, to the LCD to show the visual overview and to the amplifier to play stereo ambient office sounds. 
-          <br/><br/>
-          <a href='./files/fbp.pdf' target="_blank"><u>Report</u></a>
+
           </p>
           <img src="./img/ambient_office/electronics.jpg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
           <p className='web-prototype'><b>↓ Try out the UI:</b>  Mouse ↔ scrolls through the office, click initiates a call. 

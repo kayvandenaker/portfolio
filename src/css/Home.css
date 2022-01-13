@@ -8,7 +8,7 @@
 
 .head h1{
   color: white;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 1rem;
 }
 
@@ -68,13 +68,13 @@
 
 .head a:hover{
   text-decoration: underline;
-  text-decoration-color: #aaa;
-  text-decoration-thickness: 1px;
+  text-decoration-color: white;
+  /* text-decoration-thickness: 1px; */
 }
 
 .grey{
   /* opacity: 0.5; */
-  color: #777;
+  color: #757575;
 }
 
 .head-about{
@@ -91,7 +91,13 @@
   position: fixed;
   left: 80vw;
   /* left: min(calc(100vw - 60px - 96px), 80vw); */
-  top: calc(50vh - 1.4em - 1rem);
+  top: calc(50vh - 1.5em - 1rem - 3px);
+  line-height: 1.5;
+}
+
+.head-projects .white{
+  font-size: 25px;
+  font-family: "Space Grotesk";
 }
 
 
@@ -244,9 +250,11 @@
   }
   .box .info .title{
     display: block;
-    font-weight: 600;
+    font-weight: 390;
     margin-bottom: 0.5rem;
-    font-size: 20px;
+    font-size: 25px;
+    color: white;
+    font-family: "Space Grotesk";
   }
 }
 

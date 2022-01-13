@@ -46,13 +46,13 @@ const menuItems = [
     year: "2020",
     thumb: { src: "./img/fbp.jpg", caption: "Connecting remote workers through ambient interactive soundscapes." }
   },
-  // {
-  //   title: "Team RED",
-  //   href: "team-red",
-  //   color: "#6b605b",
-  //   year: "2019",
-  //   thumb: { src: "./img/red.jpg", caption: "Collaborating and exploring future energy scenarios together." }
-  // },
+  {
+    title: "Team RED",
+    href: "team-red",
+    color: "#6b605b",
+    year: "2019",
+    thumb: { src: "./img/red.jpg", caption: "Collaborating and exploring future energy scenarios together." }
+  },
   // {
   //   title: "Immersive Learning",
   //   href: "immersive-learning",
