@@ -14,12 +14,6 @@ import Experiments from './components/Experiments';
 import Box from './components/Box'
 
 
-// import ArchThumb from "./images/arch.jpg";
-// import BmwThumb from "./images/bmw.jpg";
-// import AmbientThumb from "./images/fbp.jpg";
-// import RedThumb from "./images/red.jpg";
-// import ExpThumb from "./images/experiments.jpg";
-
 //git add .
 //git commit -m "fav-icon"
 //git push
