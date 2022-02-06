@@ -37,6 +37,10 @@ function Bmw({onZoomClick, onNextClick}) {
           <video controls src="./img/bmw/interacting.mp4" type="video/mp4" autoPlay={true} muted loop playsInline>
             Your browser does not support the video tag.
           </video>
+          {/* <div className='half'>
+            <img src="./img/bmw/crystal.jpg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
+            <img src="./img/bmw/crystal_2.jpg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
+          </div> */}
 
           <h3>Steering Wheel</h3>
           <p>The simplistic steering wheel raised many questions regarding interaction possibilities. I created interactive prototypes of the touchpads using Arduino and capacitive touch sensors which were directly integrated into ProtoPie so the design department could quickly try out and iterate on their UI and interaction concepts.</p>

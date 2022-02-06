@@ -20,7 +20,7 @@ function About() {
           My name is Kay van den Aker (he/him), I'm a designer and technologist who likes to explore interactions in the digital and physical world. My approach is hands-on, iterative and experience prototyping focussed; showing is explaining.
           {/* My approach is very hands-on and experience prototyping focused; showing is explaining, seeing is believing. */}
           <br/><br/>
-          Design is a big passion of mine, but there's more to life. I love to travel, do water sports or anything with a board really — surfing, diving and sailing are among my favorites. 💃
+          Design is a big passion of mine, but there's more to life. I love to travel, explore philosophy or do any sport with water really — surfing, diving and sailing are among my favorites. 💃
 
           <h3>Contact</h3>
           <div className='about-grid'>
