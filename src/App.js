@@ -4,6 +4,7 @@ import './css/Page.css';
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link, useLocation} from 'react-router-dom';
 import About from './components/About';
+import Tiles from './components/Tiles';
 import Arch from './components/Arch';
 import Bmw from './components/Bmw';
 import Fbp from './components/Fbp';
@@ -17,9 +18,9 @@ import Box from './components/Box'
 //git add .
 //git commit -m "fav-icon"
 //git push
-//this should be the new main
  
 const menuItems = [
+
   {
     title: "Arch",
     href: "arch",
@@ -27,6 +28,7 @@ const menuItems = [
     year: "2021",
     thumb: { src: "./img/arch.png", caption: "Connecting remote doctors to their patients through an AR enviroment." }
   },
+
   {
     title: "BMW Group",
     href: "bmw",
@@ -42,11 +44,18 @@ const menuItems = [
     thumb: { src: "./img/fbp.jpg", caption: "Connecting remote workers through ambient interactive soundscapes." }
   },
   {
+    title: "Tiles",
+    href: "tiles",
+    color: "#888888",
+    year: "2022",
+    thumb: { src: "./img/tiles.jpeg", caption: "Connecting with your music collection." }
+  },
+  {
     title: "Team RED",
     href: "team-red",
     color: "#6b605b",
     year: "2019",
-    thumb: { src: "./img/red.jpg", caption: "Collaborating and exploring future energy scenarios together." }
+    thumb: { src: "./img/red.jpg", caption: "Exploring future energy scenarios together." }
   },
   {
     title: "Experiments",
@@ -122,6 +131,7 @@ function App() {
           <Routes>
             <Route path="/" element={null}/>
             <Route path="/about" element={<About />}/>
+            <Route path="/tiles" element={<Tiles onZoomClick={handleZoomClick} onNextClick={handleNextClick}/>}/>
             <Route path="/arch" element={<Arch onZoomClick={handleZoomClick} onNextClick={handleNextClick}/>}/>
             <Route path="/bmw" element={<Bmw onZoomClick={handleZoomClick} onNextClick={handleNextClick}/>}/>
             <Route path="/ambient-office" element={<Fbp onZoomClick={handleZoomClick} onNextClick={handleNextClick}/>}/>

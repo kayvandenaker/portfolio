@@ -7,7 +7,7 @@ function Red({onZoomClick, onNextClick}) {
   return (
     <div className='page-container'>
         <div className='page-content'>
-          <h2>Team RED — Collaborating and exploring future energy scenarios together.</h2>
+          <h2>Team RED — Exploring future energy scenarios together.</h2>
           
           <h3>Problem</h3>
           <p>The biggest bottleneck in the energy transition for campuses, such as the Eindhoven University of Technology, is the lack of overview of the current electricity grid, its problems and the impact that sustainable innovations can have on it. 
@@ -39,10 +39,10 @@ function Red({onZoomClick, onNextClick}) {
             <div><b>Partner</b><br/> <a href='https://www.exentr.com/' target="_blank">Exentr</a></div>
           </div>
 
-          <h2>Concept Video</h2>
+          {/* <h2>Concept Video</h2>
           <br/>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/87QHXdIrvMM?rel=0" frameBorder="0" allowFullScreen="1"></iframe>
-          
+           */}
           <h2>Highlights & Contribution</h2>
           <h3>Ideation</h3>
           <p>Our initial idea for the platform was digital but after prototyping, we quickly shifted towards physical to allow for a richer multi-user and collaborative experience. 
