@@ -130,7 +130,7 @@ function App() {
           
           <Routes>
             <Route path="/" element={null}/>
-            <Route path="/about" element={<About />}/>
+            <Route path="/about" element={<About onNextClick={handleNextClick}/>}/>
             <Route path="/tiles" element={<Tiles onZoomClick={handleZoomClick} onNextClick={handleNextClick}/>}/>
             <Route path="/arch" element={<Arch onZoomClick={handleZoomClick} onNextClick={handleNextClick}/>}/>
             <Route path="/bmw" element={<Bmw onZoomClick={handleZoomClick} onNextClick={handleNextClick}/>}/>

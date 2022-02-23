@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link} from 'react-router-dom';
 
-function About() {
+function About({onNextClick}) {
   return (
     <div className='page-container'>
         <div className='page-content about'>
@@ -61,6 +62,12 @@ function About() {
             <div>2019 - 2020</div><div>Exchange, Industrial Design at Umeå Institute of Design
               <span>Umeå, Sweden</span>
             </div>
+          </div>
+          <h3>Exhibitions</h3>
+          <div className='about-grid'>
+            <div>2022</div><div>Dubai Design Week — <Link to='/team-red' onClick={onNextClick}>Arch</Link></div>
+            <div>2020</div><div>Dutch Design Week, Drivers of Change exhibition — <Link to='/team-red' onClick={onNextClick}>Team RED</Link></div>
+            <div>2019</div><div>Dutch Design Week, Drivers of Change exhibition — <Link to='/team-red' onClick={onNextClick}>Team RED</Link></div>
           </div>
         </div>
     </div>
