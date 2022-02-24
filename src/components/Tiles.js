@@ -26,7 +26,11 @@ function Tiles({onZoomClick, onNextClick}) {
           
           <div className='context quarter'>
             <div><b>Project Info</b> <br/>3 weeks, spring 2022<br/>  Sound Design Course<br/>  Umeå Institute of Design<br/></div>
-            <div><b>Team</b> <br/>Emile Chuffart<br/>  Oscar Olsson<br/>  Tobias Wertel</div>
+            <div><b>Team</b> <br/>
+              <a href="https://emilechuffart.com" target="_blank">Emile Chuffart</a><br/> 
+              <a href="https://www.tobias-ertel.de" target="_blank">Tobias Ertel</a><br/> 
+              <a href="https://www.koolsson.com" target="_blank">Oscar Olsson</a>
+            </div>
           </div>
           
           {/* <h2>Concept Video</h2>

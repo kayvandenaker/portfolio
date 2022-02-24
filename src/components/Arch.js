@@ -33,7 +33,11 @@ function Arch({onZoomClick, onNextClick}) {
           
           <div className='context quarter'>
             <div><b>Project Info</b> <br/>10 weeks, autumn 2021<br/>  Professional Product Design<br/>  Umeå Institute of Design<br/></div>
-            <div><b>Team</b> <br/>Lukas Moro<br/>  Josie Reilly<br/>  Tianyi Wang</div>
+            <div><b>Team</b> <br/>
+              <a href="https://lukasmoro.com" target="_blank">Lukas Moro</a><br/> 
+              <a href="https://www.josiereilly.com" target="_blank">Josie Reilly</a><br/> 
+              <a href="https://www.wtianyiportfolio.com" target="_blank">Tianyi Wang</a>
+              </div>
             <div><b>Partner</b><br/> <a href='https://www.regionvasterbotten.se/' target="_blank">Region Västerbotten</a><br/><a href='https://www.nordicrebels.com/' target="_blank">Nordic Rebels</a></div>
           </div>
           
