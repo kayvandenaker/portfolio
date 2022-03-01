@@ -65,7 +65,7 @@ function About({onNextClick}) {
           </div>
           <h3>Exhibitions</h3>
           <div className='about-grid'>
-            <div>2022</div><div>Dubai Design Week — <Link to='/team-red' onClick={onNextClick}>Arch</Link></div>
+            <div>2022</div><div>Dubai Design Week — <Link to='/arch' onClick={onNextClick}>Arch</Link></div>
             <div>2021</div><div>IAA Mobility — <Link to='/bmw' onClick={onNextClick}>BMW i Vision Circular</Link></div>
             <div>2020</div><div>Dutch Design Week, Drivers of Change exhibition — <Link to='/team-red' onClick={onNextClick}>Team RED</Link></div>
             <div>2019</div><div>Dutch Design Week, Drivers of Change exhibition — <Link to='/team-red' onClick={onNextClick}>Team RED</Link></div>
