@@ -32,43 +32,43 @@ function About({onNextClick}) {
           </div>
           <h3>Experience</h3>
           <div className='about-grid'>
-            <div>2022 - now</div><div>Interaction Designer at Rolls-Royce Motor Cars
+            <div>2022 - now</div><div>Interaction Designer at <a href='https://www.rolls-roycemotorcars.com' target="_blank">Rolls-Royce Motor Cars</a>
               <span>Goodwood, United Kingdom <br/><br/>Designing and prototyping interior concept mockups at the bespoke department, both remote and on-site.</span>
             </div>
-            <div>2021</div><div>Creative Technologist at BMW Group 
+            <div>2021</div><div>Creative Technologist at <a href='https://www.bmwgroup.com/en.html' target="_blank">BMW Group</a>
               <span>Munich, Germany <br/><br/> Intern at the early-phase design and development department. (concept cars) <br/> Translating designers’ ideas into interactive experience prototypes combining various hardware and software to explore, iterate and validate concepts in the beginning of the design process. (arduino, kinect, unity, madmapper, leap motion, touchdesigner, protopie, fmod)</span>
             </div>
-            <div>2017 - 2019</div><div>Interaction Designer / Co-Founder at Team RED
+            <div>2017 - 2019</div><div>Interaction Designer / Co-Founder at <Link to='/team-red' onClick={onNextClick}>Team RED</Link>
             <span>Eindhoven, Netherlands <br/><br/> Student startup focused on the acceleration of the energy transition by providing an interactive map on which the impact of sustainable innovations can be simulated.</span>
             </div>
             {/* <div>2018 - 2019</div><div>Chairman at Study Association Lucid
               <span>Eindhoven, Netherlands<br/><br/> Leading the board, guiding the association and facilitating activities that strengthen the community, support the education and prepare students for their career.</span>
             </div> */}
-            <div>2019</div><div>Surf Instructor at Flowtrack
+            <div>2019</div><div>Surf Instructor at <a href='https://www.flowtrack.be' target="_blank">Flowtrack</a>
               <span>San Vicente de la Barquera, Spain<br/><br/> Surf Instructor (ISA 1) and Life Saver (ILS) for 13+ and 16+ surf camps.</span>
             </div>
-            <div>2018</div><div>Co-Design Facilitator for Newcastle University
+            <div>2018</div><div>Co-Design Facilitator for <a href='https://openlab.ncl.ac.uk' target="_blank">Newcastle University</a>
               <span>Lunteren, Netherlands<br/><br/> Facilitator for Myto, a co-design event about mitochondrial disease organized by Open Lab from the Newcastle University.</span>
             </div>
           </div>
           <h3>Education</h3>
           <div className='about-grid'>
-            <div>2021 - now</div><div>MFA, Interaction Design at Umeå Institute of Design
+            <div>2021 - now</div><div>MFA, Interaction Design at <a href='https://www.uid.umu.se/en/' target="_blank">Umeå Institute of Design</a>
               <span>Umeå, Sweden</span>
             </div>
-            <div>2016 - 2021</div><div>BSc, Industrial Design w/ honors at Eindhoven University of Technology
+            <div>2016 - 2021</div><div>BSc, Industrial Design w/ honors at <a href='https://www.tue.nl/en/' target="_blank">Eindhoven University of Technology</a>
               <span>Eindhoven, Netherlands <br/><br/> Chairman of Study Association Lucid <br/>Student Council of the Honors Academy<br/>Surf Committee of Avalanche Boarders</span>
             </div>
-            <div>2019 - 2020</div><div>Exchange, Industrial Design at Umeå Institute of Design
+            <div>2019 - 2020</div><div>Exchange, Industrial Design at <a href='https://www.uid.umu.se/en/' target="_blank">Umeå Institute of Design</a>
               <span>Umeå, Sweden</span>
             </div>
           </div>
           <h3>Exhibitions</h3>
           <div className='about-grid'>
-            <div>2022</div><div>Dubai Design Week — <Link to='/arch' onClick={onNextClick}>Arch</Link></div>
-            <div>2021</div><div>IAA Mobility — <Link to='/bmw' onClick={onNextClick}>BMW i Vision Circular</Link></div>
-            <div>2020</div><div>Dutch Design Week, Drivers of Change exhibition — <Link to='/team-red' onClick={onNextClick}>Team RED</Link></div>
-            <div>2019</div><div>Dutch Design Week, Drivers of Change exhibition — <Link to='/team-red' onClick={onNextClick}>Team RED</Link></div>
+            <div>2022</div><div><a href='https://www.dubaidesignweek.ae' target="_blank">Dubai Design Week</a> — <Link to='/arch' onClick={onNextClick}>Arch</Link></div>
+            <div>2021</div><div><a href='https://www.iaa.de' target="_blank">IAA Mobility</a> — <Link to='/bmw' onClick={onNextClick}>BMW i Vision Circular</Link></div>
+            <div>2020</div><div><a href='https://ddw.nl' target="_blank">Dutch Design Week, Drivers of Change exhibition</a> — <Link to='/team-red' onClick={onNextClick}>Team RED</Link></div>
+            <div>2019</div><div><a href='https://ddw.nl' target="_blank">Dutch Design Week, Drivers of Change exhibition</a> — <Link to='/team-red' onClick={onNextClick}>Team RED</Link></div>
           </div>
         </div>
     </div>

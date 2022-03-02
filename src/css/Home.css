@@ -22,6 +22,10 @@
   font-weight: 390;
 }
 
+.head a.white{
+  text-decoration: none !important;
+}
+
 #head-fiber{
   animation: fadeIn 1.2s ease-out 0s 1;
   width: 100vw !important;

@@ -25,7 +25,7 @@ function Tiles({onZoomClick, onNextClick}) {
           <p> Our approach is a device which puts emphasis on the albums; their artworks and information. In contrast to music streaming apps, Tiles provokes a careful selection of music and elegant interactions to enjoy your favorite tunes.</p>
           
           <div className='context quarter'>
-            <div><b>Project Info</b> <br/>3 weeks, spring 2022<br/>  Sound Design Course<br/>  Umeå Institute of Design<br/></div>
+            <div><b>Project Info</b> <br/>3 weeks, spring 2022<br/>  Sound Design Course<br/>  <a href='https://www.uid.umu.se/en/' target="_blank">Umeå Institute of Design</a><br/></div>
             <div><b>Team</b> <br/>
               <a href="https://emilechuffart.com" target="_blank">Emile Chuffart</a><br/> 
               <a href="https://www.tobias-ertel.de" target="_blank">Tobias Ertel</a><br/> 
