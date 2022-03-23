@@ -54,7 +54,7 @@ function About({onNextClick}) {
           <h3>Education</h3>
           <div className='about-grid'>
             <div>2021 - now</div><div>MFA, Interaction Design at <a href='https://www.uid.umu.se/en/' target="_blank">Umeå Institute of Design</a>
-              <span>Umeå, Sweden</span>
+              <span>Umeå, Sweden <br/><br/> Class Representative</span>
             </div>
             <div>2016 - 2021</div><div>BSc, Industrial Design w/ honors at <a href='https://www.tue.nl/en/' target="_blank">Eindhoven University of Technology</a>
               <span>Eindhoven, Netherlands <br/><br/> Chairman of Study Association Lucid <br/>Student Council of the Honors Academy<br/>Surf Committee of Avalanche Boarders</span>
