@@ -32,6 +32,9 @@ function About({onNextClick}) {
           </div>
           <h3>Experience</h3>
           <div className='about-grid'>
+            <div>up next</div><div>Design Technologist at <a href='https://www.above.se' target="_blank">Above</a>
+              <span>Malmö, Sweden</span>
+            </div>
             <div>2022 - now</div><div>Interaction Designer at <a href='https://www.rolls-roycemotorcars.com' target="_blank">Rolls-Royce Motor Cars</a>
               <span>Goodwood, United Kingdom <br/><br/>Designing and prototyping interior concept mockups at the bespoke department, both remote and on-site.</span>
             </div>
