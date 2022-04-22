@@ -38,6 +38,7 @@ function Head({isFrontpage, hover, mouseX, mouseY}) {
             className={(hover !== "") ? "blur" : ""} 
             id="head-fiber" 
             camera={{ fov: 25, near: 0.1, far: 10, position: [0, 0, 0.85] }} 
+            // onCreated={state => state.gl.setClearColor("white")}
         >
             <HeadMesh mouseX={mouseX} mouseY={mouseY} />
             <color attach="background" args={["white"]} />

@@ -109,7 +109,7 @@ function App() {
               <span className='work-normal'>Work</span>
               <div onMouseLeave={() => setHover("")}>
                 {menuItems.map((el, i) => (
-                  <div>
+                  <div key={"div-to-" + el.href}>
                   <Link onClick={handleLinkClick} key={"link-to-" + el.href} to={"/" + el.href} onMouseEnter={() => {setHover(el.href); setColor(el.color)}}>
                     <span className='white'>{el.title}</span></Link><span className='grey'> — {el.year}</span>
                   
@@ -137,10 +137,19 @@ function App() {
             <Route path="/ambient-office" element={<Fbp onZoomClick={handleZoomClick} onNextClick={handleNextClick}/>}/>
             <Route path="/team-red" element={<Red onZoomClick={handleZoomClick} onNextClick={handleNextClick}/>}/>
             <Route path="/experiments" element={<Experiments onZoomClick={handleZoomClick} onNextClick={handleNextClick}/>}/>
+            <Route path="*" element={    
+              <div>
+                <h3>
+                  No match
+                </h3>
+              </div>
+            }/>
             {/* <Route component={Error} /> */}
           </Routes>
       </main>
   )
 }
 
+
 export default App;
+

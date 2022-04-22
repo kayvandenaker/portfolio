@@ -32,11 +32,11 @@ function About({onNextClick}) {
           </div>
           <h3>Experience</h3>
           <div className='about-grid'>
-            <div>up next</div><div>Design Technologist at <a href='https://www.above.se' target="_blank">Above</a>
+            <div>up next</div><div>Design Technologist Intern at <a href='https://www.above.se' target="_blank">Above</a>
               <span>Malmö, Sweden</span>
             </div>
-            <div>2022 - now</div><div>Interaction Designer at <a href='https://www.rolls-roycemotorcars.com' target="_blank">Rolls-Royce Motor Cars</a>
-              <span>Goodwood, United Kingdom <br/><br/>Designing and prototyping interior concept mockups at the bespoke department, both remote and on-site.</span>
+            <div>2022</div><div>Interaction Designer at <a href='https://www.rolls-roycemotorcars.com' target="_blank">Rolls-Royce Motor Cars</a>
+              <span>Goodwood, United Kingdom <br/><br/>Designing and prototyping digital interior concepts at the bespoke department, both remote and on-site.</span>
             </div>
             <div>2021</div><div>Creative Technologist at <a href='https://www.bmwgroup.com/en.html' target="_blank">BMW Group</a>
               <span>Munich, Germany <br/><br/> Intern at the early-phase design and development department. (concept cars) <br/> Translating designers’ ideas into interactive experience prototypes combining various hardware and software to explore, iterate and validate concepts in the beginning of the design process. (arduino, kinect, unity, madmapper, leap motion, touchdesigner, protopie, fmod)</span>
