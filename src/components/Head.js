@@ -41,11 +41,13 @@ function Head({isFrontpage, hover, mouseX, mouseY}) {
             // onCreated={state => state.gl.setClearColor("white")}
         >
             <HeadMesh mouseX={mouseX} mouseY={mouseY} />
-            <color attach="background" args={["white"]} />
+            
             <pointLight color="white" position={[0, 0, 2]} intensity={3} />
-            <EffectComposer>
+            <color attach="background" args={["white"]} />
+            <EffectComposer multisampling={0} disableNormalPass={true}>
                 <DotScreen blendFunction={BlendFunction.OVERLAY} angle={Math.PI /2} scale={0.65} />
             </EffectComposer>
+
         </Canvas>
     )
 }
