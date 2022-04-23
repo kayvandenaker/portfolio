@@ -35,13 +35,13 @@
   top: 0;
   left: 0;
 
-  filter: invert(1) brightness(70%);
+  filter: invert(1) brightness(70%) grayscale(90%) hue-rotate(60deg);
   transition: filter 0.6s ease;
   z-index: -1;
 }
 
 #head-fiber.blur{
-  filter: invert(1) brightness(70%) blur(5px);
+  filter: invert(1) brightness(70%) blur(5px) grayscale(90%) hue-rotate(60deg);
   transition: filter 0.15s ease;
 }
 
@@ -196,10 +196,10 @@
  /* only screen and (max-height: 760px) */
 @media screen and (max-width: 1150px), screen and (hover: none), screen and (max-height: 780px){
   #head-fiber{
-    filter: invert(1) brightness(30%);
+    filter: invert(1) brightness(30%) grayscale(90%) hue-rotate(60deg);
   }
   #head-fiber.blur{
-    filter: invert(1) brightness(30%) blur(5px);
+    filter: invert(1) brightness(30%) blur(5px) grayscale(90%) hue-rotate(60deg);
   }
   .head-about{
     position: relative;
