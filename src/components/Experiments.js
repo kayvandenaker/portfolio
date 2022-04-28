@@ -44,7 +44,7 @@ function Experiments({onZoomClick, onNextClick}) {
           <img src="./img/experiments/midi.jpg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
 
           <div className='next'>
-            <Link to='/arch' onClick={onNextClick}>next: Arch</Link>
+            <Link to='/tiles' onClick={onNextClick}>next: Tiles</Link>
           </div>
         </div>
     </div>

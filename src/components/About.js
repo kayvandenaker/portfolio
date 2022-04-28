@@ -32,10 +32,13 @@ function About({onNextClick}) {
           </div>
           <h3>Experience</h3>
           <div className='about-grid'>
-            <div>up next</div><div>Design Technologist Intern at <a href='https://www.above.se' target="_blank">Above</a>
+            <div>upcoming 🍂</div><div style={{opacity: 0.4}}>Design Technologist Intern at <a href='https://www.above.se' target="_blank">Above</a>
               <span>Malmö, Sweden</span>
             </div>
-            <div>2022</div><div>Interaction Designer at <a href='https://www.rolls-roycemotorcars.com' target="_blank">Rolls-Royce Motor Cars</a>
+            {/* <div>upcoming ☀️</div><div style={{opacity: 0.4}}>Interaction Design Intern at <a href='https://www.arduino.cc' target="_blank">Arduino</a>
+              <span>Malmö, Sweden</span>
+            </div> */}
+            <div>2022 - now</div><div>Interaction Designer at <a href='https://www.rolls-roycemotorcars.com' target="_blank">Rolls-Royce Motor Cars</a>
               <span>Goodwood, United Kingdom <br/><br/>Designing and prototyping digital interior concepts at the bespoke department, both remote and on-site.</span>
             </div>
             <div>2021</div><div>Creative Technologist at <a href='https://www.bmwgroup.com/en.html' target="_blank">BMW Group</a>
@@ -48,10 +51,14 @@ function About({onNextClick}) {
               <span>Eindhoven, Netherlands<br/><br/> Leading the board, guiding the association and facilitating activities that strengthen the community, support the education and prepare students for their career.</span>
             </div> */}
             <div>2019</div><div>Surf Instructor at <a href='https://www.flowtrack.be' target="_blank">Flowtrack</a>
-              <span>San Vicente de la Barquera, Spain<br/><br/> Surf Instructor (ISA 1) and Life Saver (ILS) for 13+ and 16+ surf camps.</span>
+              <span>San Vicente de la Barquera, Spain<br/>
+              {/* <br/> Surf Instructor (ISA 1) and Life Saver (ILS) for 13+ and 16+ surf camps. */}
+              </span>
             </div>
             <div>2018</div><div>Co-Design Facilitator for <a href='https://openlab.ncl.ac.uk' target="_blank">Newcastle University</a>
-              <span>Lunteren, Netherlands<br/><br/> Facilitator for Myto, a co-design event about mitochondrial disease organized by Open Lab from the Newcastle University.</span>
+              <span>Lunteren, Netherlands<br/>
+              <br/> Facilitator for Myto, a co-design event about mitochondrial disease organized by Open Lab from the Newcastle University.
+              </span>
             </div>
           </div>
           <h3>Education</h3>

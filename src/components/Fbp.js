@@ -165,7 +165,7 @@ function Fbp({onZoomClick, onNextClick}) {
           <iframe className='web-prototype' src="./web_prototype/embed.html" style={{width: "1366px", height: "768px", border: "0px", transformOrigin: "top left", transform: "scale(calc(736 / 1366))", marginBottom: "calc(-768px + 736 / 1366 * 768px)"}}></iframe>
           
           <div className='next'>
-            <Link to='/tiles' onClick={onNextClick}>next: Tiles</Link>
+            <Link to='/team-red' onClick={onNextClick}>next: Team RED</Link>
           </div>
 
         </div>

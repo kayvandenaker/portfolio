@@ -61,7 +61,7 @@ function Tiles({onZoomClick, onNextClick}) {
           <img src="./img/tiles/back.jpg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
 
           <div className='next'>
-            <Link to='/team-red' onClick={onNextClick}>next: Team RED</Link>
+            <Link to='/arch' onClick={onNextClick}>next: Arch</Link>
           </div>
 
         </div>

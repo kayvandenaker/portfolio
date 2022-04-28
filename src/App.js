@@ -20,7 +20,13 @@ import Box from './components/Box'
 //git push
  
 const menuItems = [
-
+  {
+    title: "Tiles",
+    href: "tiles",
+    color: "#888888",
+    year: "2022",
+    thumb: { src: "./img/tiles.jpeg", caption: "Connecting with your music collection." }
+  },
   {
     title: "Arch",
     href: "arch",
@@ -42,13 +48,6 @@ const menuItems = [
     color: "#9f9184",
     year: "2020",
     thumb: { src: "./img/fbp.jpg", caption: "Connecting remote workers through ambient interactive soundscapes." }
-  },
-  {
-    title: "Tiles",
-    href: "tiles",
-    color: "#888888",
-    year: "2022",
-    thumb: { src: "./img/tiles.jpeg", caption: "Connecting with your music collection." }
   },
   {
     title: "Team RED",
