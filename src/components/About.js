@@ -18,10 +18,10 @@ function About({onNextClick}) {
           {/* My name is Kay van den Aker (he/him). I am an interaction designer and creative technologist from the Netherlands. I am fascinated by the relationship between people and the ever smarter getting world and how design allows us to shape this alliance.
           <br/><br/>
           I combine technical problem solving and creative thinking to design innovative concepts and immersive prototypes. My approach is hands-on and explorative while focused on the users’ and societal needs. */}
-          My name is Kay van den Aker (he/him), I'm a designer and technologist who likes to explore interactions in the digital and physical world. My approach is hands-on, iterative and experience prototyping focussed; showing is explaining.
+          My name is Kay van den Aker (he/him), I'm a designer and technologist who loves to explore interactions in the digital and physical world. I thrive in ambiguous environments using a hands-on, iterative and experience prototyping focussed approach.
           {/* My approach is very hands-on and experience prototyping focused; showing is explaining, seeing is believing. */}
           <br/><br/>
-          Design is a big passion of mine, but there's more to life. I love to travel, explore philosophy or do any sport with water really — surfing, diving and sailing are among my favorites. 💃
+          Design is a big passion of mine, but there's more! I love to travel, explore philosophy or do any sport with water really — surfing, diving and sailing are among my favorites. 💃
 
           <h3>Contact</h3>
           <div className='about-grid'>
@@ -35,9 +35,9 @@ function About({onNextClick}) {
             <div>upcoming 🍂</div><div style={{opacity: 0.4}}>Design Technologist Intern at <a href='https://www.above.se' target="_blank">Above</a>
               <span>Malmö, Sweden</span>
             </div>
-            {/* <div>upcoming ☀️</div><div style={{opacity: 0.4}}>Interaction Design Intern at <a href='https://www.arduino.cc' target="_blank">Arduino</a>
+            <div>upcoming ☀️</div><div style={{opacity: 0.4}}>Interaction Design Intern at <a href='https://www.arduino.cc' target="_blank">Arduino</a>
               <span>Malmö, Sweden</span>
-            </div> */}
+            </div>
             <div>2022 - now</div><div>Interaction Designer at <a href='https://www.rolls-roycemotorcars.com' target="_blank">Rolls-Royce Motor Cars</a>
               <span>Goodwood, United Kingdom <br/><br/>Designing and prototyping digital interior concepts at the bespoke department, both remote and on-site.</span>
             </div>
