@@ -9,8 +9,8 @@ function About({onNextClick}) {
             <div className='profile' style={{backgroundImage: "url('./img/head2.jpg'"}}></div>
             <div>
               <h2>Kay van den Aker</h2>
-              <p>Designer at Rolls-Royce / MFA at Umeå Institute of Design
-                <span style={{ marginBottom: 0}}>Mostly in Umeå, sporadically Goodwood</span>
+              <p>MFA Interaction Design at Umeå Institute of Design
+                <span style={{ marginBottom: 0}}>Located in Umeå, soon Malmö</span>
               </p>
             </div>
           </div>
@@ -38,8 +38,8 @@ function About({onNextClick}) {
             <div>upcoming ☀️</div><div style={{opacity: 0.4}}>Interaction Design Intern at <a href='https://www.arduino.cc' target="_blank">Arduino</a>
               <span>Malmö, Sweden</span>
             </div>
-            <div>2022 - now</div><div>Interaction Designer at <a href='https://www.rolls-roycemotorcars.com' target="_blank">Rolls-Royce Motor Cars</a>
-              <span>Goodwood, United Kingdom <br/><br/>Designing and prototyping digital interior concepts at the bespoke department, both remote and on-site.</span>
+            <div>2022</div><div>Interaction Designer at <a href='https://www.rolls-roycemotorcars.com' target="_blank">Rolls-Royce Motor Cars</a>
+              <span>Goodwood, United Kingdom <br/><br/>Designing and prototyping a digital interior concept at the bespoke department, both remote and on-site.</span>
             </div>
             <div>2021</div><div>Creative Technologist at <a href='https://www.bmwgroup.com/en.html' target="_blank">BMW Group</a>
               <span>Munich, Germany <br/><br/> Intern at the early-phase design and development department. (concept cars) <br/> Translating designers’ ideas into interactive experience prototypes combining various hardware and software to explore, iterate and validate concepts in the beginning of the design process. (arduino, kinect, unity, madmapper, leap motion, touchdesigner, protopie, fmod)</span>
