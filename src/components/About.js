@@ -39,7 +39,7 @@ function About({onNextClick}) {
               <span>Malmö, Sweden</span>
             </div>
             <div>2022</div><div>Interaction Designer at <a href='https://www.rolls-roycemotorcars.com' target="_blank">Rolls-Royce Motor Cars</a>
-              <span>Goodwood, United Kingdom <br/><br/>Designing and prototyping a digital interior concept at the bespoke department, both remote and on-site.</span>
+              <span>Goodwood, United Kingdom <br/><br/>Designing and prototyping a digital interior concept at the bespoke department, mostly remote but sporadically on-site.</span>
             </div>
             <div>2021</div><div>Creative Technologist at <a href='https://www.bmwgroup.com/en.html' target="_blank">BMW Group</a>
               <span>Munich, Germany <br/><br/> Intern at the early-phase design and development department. (concept cars) <br/> Translating designers’ ideas into interactive experience prototypes combining various hardware and software to explore, iterate and validate concepts in the beginning of the design process. (arduino, kinect, unity, madmapper, leap motion, touchdesigner, protopie, fmod)</span>
