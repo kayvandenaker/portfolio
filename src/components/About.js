@@ -18,10 +18,10 @@ function About({onNextClick}) {
           {/* My name is Kay van den Aker (he/him). I am an interaction designer and creative technologist from the Netherlands. I am fascinated by the relationship between people and the ever smarter getting world and how design allows us to shape this alliance.
           <br/><br/>
           I combine technical problem solving and creative thinking to design innovative concepts and immersive prototypes. My approach is hands-on and explorative while focused on the users’ and societal needs. */}
-          My name is Kay van den Aker (he/him), I'm a designer and technologist who loves to explore interactions in the digital and physical world. I thrive in ambiguous environments using a hands-on, iterative and experience prototyping focussed approach.
+          My name is Kay van den Aker (he/him), I'm a designer and technologist who loves to explore interactions in the digital and physical world. I thrive in ambiguous environments by using a hands-on and iterative approach focussing on experience prototyping.
           {/* My approach is very hands-on and experience prototyping focused; showing is explaining, seeing is believing. */}
           <br/><br/>
-          Design is a big passion of mine, but there's more! I love to travel, explore philosophy or do any sport with water really — surfing, diving and sailing are among my favorites. 💃
+          Design is a big passion of mine, but there's more! I love to travel, explore philosophy or do any sport with water — surfing, diving and sailing are among my favorites. 💃
 
           <h3>Contact</h3>
           <div className='about-grid'>
