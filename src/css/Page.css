@@ -246,6 +246,13 @@ audio{
     color: #757575;
 }
 
+.light-grey{
+    font-size: 14px;
+    display: block;
+    margin: 0 0 1.25rem 0;
+    opacity: 0.4;
+  }
+
 iframe + .context{
     border-top: none;
 }
