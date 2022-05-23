@@ -102,9 +102,9 @@ function About({onNextClick}) {
             </div>
           </div>
           <h3>About</h3>
-          My name is Kay van den Aker (he/him), I'm a designer and technologist who loves to explore interactions in the digital and physical world. I thrive in ambiguous environments using a hands-on and iterative approach focused on experience prototyping.
+          Designer and technologist exploring interactions that fuse the digital and physical world. Thrives in ambiguous environments using a hands-on and iterative approach focused on experience prototyping; putting concepts in the world by gluing together various hard- and software.
           <br/><br/>
-          Design is a big passion of mine, but there's more! I love to travel, explore philosophy or do any sport with water — surfing, diving and sailing are among my favorites. 💃
+          Outside the design and tech world, you can find me travelling, exploring philosophy or doing water sports - surfing, diving and sailing are among my favorites. 💃
         
 
           <h3>Contact</h3>
