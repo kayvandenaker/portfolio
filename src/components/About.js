@@ -129,12 +129,17 @@ function About({onNextClick}) {
             ))}
           </div>
 
-          <h3>Exhibitions</h3>
+          <h3>Exhibitions, Publications and Features</h3>
+          
           <div className='about-grid'>
-            <div>2022</div><div><a href='https://www.dubaidesignweek.ae' target="_blank">Dubai Design Week</a> — <Link to='/arch' onClick={onNextClick}>Arch</Link></div>
-            <div>2021</div><div><a href='https://www.iaa.de' target="_blank">IAA Mobility</a> — <Link to='/bmw' onClick={onNextClick}>BMW i Vision Circular</Link></div>
-            <div>2020</div><div><a href='https://ddw.nl' target="_blank">Dutch Design Week, Drivers of Change exhibition</a> — <Link to='/team-red' onClick={onNextClick}>Team RED</Link></div>
-            <div>2019</div><div><a href='https://ddw.nl' target="_blank">Dutch Design Week, Drivers of Change exhibition</a> — <Link to='/team-red' onClick={onNextClick}>Team RED</Link></div>
+            <div>2022</div><div><Link to='/tiles' onClick={onNextClick}>Tiles</Link> - <a href='https://designwanted.com/tiles-connects-you-deeper-with-your-music-collection/' target="_blank">Design Wanted</a></div>
+            <div>2022</div><div><Link to='/tiles' onClick={onNextClick}>Tiles</Link> - <a href='https://twitter.com/withtony/status/1515666413817516037' target="_blank"><i>"Pushes the boundary of imagination"</i> — Tony Kim, CEO ProtoPie</a></div>
+            <div>2022</div><div><Link to='/tiles' onClick={onNextClick}>Tiles</Link> - <a href='https://www.instagram.com/p/CcnQVeXJFVu/' target="_blank">Yanko Design</a></div>
+            <div>2022</div><div><Link to='/tiles' onClick={onNextClick}>Tiles</Link> - <a href='https://www.instagram.com/p/CchqnE9D4lO/' target="_blank">Megosu</a></div>
+            <div>2022</div><div><Link to='/arch' onClick={onNextClick}>Arch</Link> - <a href='https://www.dubaidesignweek.ae' target="_blank">Dubai Design Week</a></div>
+            <div>2021</div><div><Link to='/bmw' onClick={onNextClick}>BMW i Vision Circular</Link> - <a href='https://www.iaa.de' target="_blank">IAA Mobility</a></div>
+            <div>2020</div><div><Link to='/team-red' onClick={onNextClick}>Team RED</Link> - <a href='https://ddw.nl' target="_blank">Dutch Design Week, Drivers of Change exhibition</a></div>
+            <div>2019</div><div><Link to='/team-red' onClick={onNextClick}>Team RED</Link> - <a href='https://ddw.nl' target="_blank">Dutch Design Week, Drivers of Change exhibition</a></div>
           </div>
 
         </div>
