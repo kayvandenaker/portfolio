@@ -54,6 +54,8 @@ html { font-family: 'Inter', sans-serif; }
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   
+  font-feature-settings: "ss01";
+
   margin: 0;
   padding: 0;
 }
@@ -147,6 +149,13 @@ a{
   text-decoration: none;
 }
 
+a[href]:not(:where(
+  [href^="#"],
+  [href^="/"]:not([href^="//"])
+)):hover {
+  text-decoration: underline;
+}
+
 p{
   margin-bottom: 2rem;
 }
@@ -195,8 +204,6 @@ blockquote{
   }
 
 }
-
-
 
 .img-zoomer{
   cursor: zoom-in;

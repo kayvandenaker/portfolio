@@ -137,10 +137,12 @@ function App() {
             <Route path="/team-red" element={<Red onZoomClick={handleZoomClick} onNextClick={handleNextClick}/>}/>
             <Route path="/experiments" element={<Experiments onZoomClick={handleZoomClick} onNextClick={handleNextClick}/>}/>
             <Route path="*" element={    
-              <div>
-                <h3>
-                  No match
-                </h3>
+              <div className='page-container'>
+                <div className='page-error'>
+                  <h1>404: Page not found</h1>
+                  <br/>
+                  No stress. Just click the cross.
+                </div>
               </div>
             }/>
             {/* <Route component={Error} /> */}
