@@ -150,6 +150,10 @@ audio{
     grid-row-gap: .5rem;
 }
 
+.about-grid sup{
+    color: #757575;
+}
+
 
 /* .experiments-grid{
     margin-top: 5rem;
