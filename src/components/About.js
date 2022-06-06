@@ -15,7 +15,7 @@ const experienceItems = [
     title: "Junior Content Creator",
     company: "Arduino",
     link: "https://www.arduino.cc",
-    date: "upcoming ☀️",
+    date: "now",
     location: "Malmö, Sweden",
     description: ""
   },
@@ -38,7 +38,7 @@ const experienceItems = [
   {
     title: "Interaction Designer / Co-Founder",
     company: "Team RED",
-    link: "",
+    link: "/team-red",
     date: "2017 - 2019",
     location: "Eindhoven, Netherlands",
     description: "Student startup focused on the acceleration of the energy transition by providing an interactive map on which the impact of sustainable innovations can be simulated."
