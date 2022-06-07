@@ -97,7 +97,7 @@ function About({onNextClick}) {
             <div>
               <h2>Kay van den Aker</h2>
               <p>MFA Interaction Design at Umeå Institute of Design
-                <span style={{ marginBottom: 0}}>Located in Umeå, soon Malmö</span>
+                <span style={{ marginBottom: 0}}>Located in Malmö, Sweden</span>
               </p>
             </div>
           </div>
