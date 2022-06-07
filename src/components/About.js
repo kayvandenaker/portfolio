@@ -96,7 +96,7 @@ function About({onNextClick}) {
             <div className='profile' style={{backgroundImage: "url('./img/head2.jpg'"}}></div>
             <div>
               <h2>Kay van den Aker</h2>
-              <p>MFA Interaction Design at Umeå Institute of Design
+              <p>Content Creator at Arduino | MFA IxD at Umeå Institute of Design
                 <span style={{ marginBottom: 0}}>Located in Malmö, Sweden</span>
               </p>
             </div>
