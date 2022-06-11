@@ -132,14 +132,21 @@ function About({onNextClick}) {
           <h3>Exhibitions, Publications and Features</h3>
           
           <div className='about-grid'>
-            <div><Link to='/tiles' onClick={onNextClick}>Tiles</Link></div><div><a href='https://designwanted.com/tiles-connects-you-deeper-with-your-music-collection/' target="_blank">Design Wanted</a></div>
-            <div><Link to='/tiles' onClick={onNextClick}>Tiles</Link></div><div><a href='https://www.instagram.com/p/CcnQVeXJFVu/' target="_blank">Yanko Design</a></div>
-            <div><Link to='/tiles' onClick={onNextClick}>Tiles</Link></div><div><a href='https://twitter.com/withtony/status/1515666413817516037' target="_blank"><i>"Pushes the boundary of imagination"</i> — Tony Kim, CEO ProtoPie</a></div>
-            <div><Link to='/tiles' onClick={onNextClick}>Tiles</Link></div><div><a href='https://www.instagram.com/p/CchqnE9D4lO/' target="_blank">Megosu</a></div>
+            <div><Link to='/tiles' onClick={onNextClick}>Tiles</Link></div>
+            <div>
+              <a href='https://designwanted.com/tiles-connects-you-deeper-with-your-music-collection/' target="_blank">Design Wanted</a><br/>
+              <a href='https://www.instagram.com/p/CcnQVeXJFVu/' target="_blank">Yanko Design</a><br/>
+              <a href='https://twitter.com/withtony/status/1515666413817516037' target="_blank"><i>"Pushes the boundary of imagination"</i> — Tony Kim, CEO ProtoPie</a><br/>
+              <a href='https://www.instagram.com/p/CchqnE9D4lO/' target="_blank">Megosu</a>
+            </div>
             <div><Link to='/arch' onClick={onNextClick}>Arch</Link></div><div><a href='https://www.dubaidesignweek.ae' target="_blank">Dubai Design Week</a><sup>'22</sup></div>
             <div><Link to='/bmw' onClick={onNextClick}>BMW Group</Link></div><div><a href='https://www.iaa.de' target="_blank">BMW i Vision Circular, IAA Mobility</a><sup>'21</sup></div>
-            <div><Link to='/team-red' onClick={onNextClick}>Team RED</Link></div><div><a href='https://ddw.nl' target="_blank">Drivers of Change exhibition, Dutch Design Week</a><sup>'20</sup></div>
-            <div><Link to='/team-red' onClick={onNextClick}>Team RED</Link></div><div><a href='https://ddw.nl' target="_blank">Drivers of Change exhibition, Dutch Design Week</a><sup>'19</sup></div>
+            <div><Link to='/team-red' onClick={onNextClick}>Team RED</Link></div>
+            <div>
+              <a href='https://ddw.nl' target="_blank">Drivers of Change exhibition, Dutch Design Week</a><sup>'20</sup><br/>
+              <a href='https://ddw.nl' target="_blank">Drivers of Change exhibition, Dutch Design Week</a><sup>'19</sup>
+            </div>
+            {/* <div><Link to='/team-red' onClick={onNextClick}>Team RED</Link></div><div><a href='https://ddw.nl' target="_blank">Drivers of Change exhibition, Dutch Design Week</a><sup>'19</sup></div> */}
           </div>
 
         </div>
