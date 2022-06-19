@@ -36,20 +36,20 @@ const experienceItems = [
     description: "Intern at the early-phase design and development department. (concept cars) <br/> Translating designers’ ideas into interactive experience prototypes combining various hardware and software to explore, iterate and validate concepts in the beginning of the design process. (arduino, kinect, unity, madmapper, leap motion, touchdesigner, protopie, fmod)"
   },
   {
-    title: "Interaction Designer / Co-Founder",
-    company: "Team RED",
-    link: "/team-red",
-    date: "2017 - 2019",
-    location: "Eindhoven, Netherlands",
-    description: "Student startup focused on the acceleration of the energy transition by providing an interactive map on which the impact of sustainable innovations can be simulated."
-  },
-  {
     title: "Surf Instructor",
     company: "Flowtrack",
     link: "https://www.flowtrack.be",
     date: "2019",
     location: "San Vicente de la Barquera, Spain",
     description: ""
+  },
+  {
+    title: "Interaction Designer / Co-Founder",
+    company: "Team RED",
+    link: "/team-red",
+    date: "2017 - 2019",
+    location: "Eindhoven, Netherlands",
+    description: "Student startup focused on the acceleration of the energy transition by providing an interactive map on which the impact of sustainable innovations can be simulated."
   },
   {
     title: "Co-Design Facilitator",
