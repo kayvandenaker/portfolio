@@ -134,6 +134,7 @@ function About({onNextClick}) {
           <div className='about-grid'>
             <div><Link to='/tiles' onClick={onNextClick}>Tiles</Link></div>
             <div>
+              <a href='https://www.stirpad.com/news/stir-news/tiles-introduces-a-unique-and-engaging-analogue-music-experience/' target="_blank">STIR</a><br/>
               <a href='https://designwanted.com/tiles-connects-you-deeper-with-your-music-collection/' target="_blank">Design Wanted</a><br/>
               <a href='https://www.instagram.com/p/CcnQVeXJFVu/' target="_blank">Yanko Design</a><br/>
               <a href='https://twitter.com/withtony/status/1515666413817516037' target="_blank"><i>"Pushes the boundary of imagination"</i> — Tony Kim, CEO ProtoPie</a><br/>
