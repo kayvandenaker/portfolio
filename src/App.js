@@ -77,11 +77,15 @@ function App() {
   const [mouseX, setMouseX] = useState("");
   const [mouseY, setMouseY] = useState("");
 
+  const [scrollPos, setScrollPos] = useState("");
+
   const isFrontpage = useLocation().pathname === '/';
 
   const handleLinkClick = () => {
+    setScrollPos(window.pageYOffset);
     document.documentElement.style.setProperty('--comes-from-home', 1);
     window.scrollTo(0, 0);
+    
   }
 
   const handleNextClick = () => {
@@ -125,7 +129,7 @@ function App() {
           
           <div id='zoom-overlay' className={zoomActive ? "active" : ""} onClick={() => {setZoomActive(false)}}><img src={zoomImg} alt=""/></div>
 
-          <Link to="/" className={isFrontpage ? "exit" : "active exit"} onClick={(e) => {setMouseX(e.clientX); setMouseY(e.clientY)}}>✗</Link>
+          <Link to="/" className={isFrontpage ? "exit" : "active exit"} onClick={(e) => {setMouseX(e.clientX); setMouseY(e.clientY); window.scrollTo(0, scrollPos);}}>✗</Link>
           
           <Routes>
             <Route path="/" element={null}/>
