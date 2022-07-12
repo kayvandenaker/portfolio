@@ -4,7 +4,7 @@ import { Link} from 'react-router-dom';
 
 const experienceItems = [
   {
-    title: "Design Technologist Intern",
+    title: "Design Technologist",
     company: "Above",
     link: "https://www.above.se",
     date: "upcoming 🍂",
@@ -12,7 +12,7 @@ const experienceItems = [
     description: ""
   },
   {
-    title: "Junior Content Creator",
+    title: "Content Creator",
     company: "Arduino",
     link: "https://www.arduino.cc",
     date: "now",
@@ -28,7 +28,7 @@ const experienceItems = [
     description: "Designing and prototyping a digital interior concept at the bespoke innovations department, mostly remote but sporadically on-site."
   },
   {
-    title: "Creative Technologist Intern",
+    title: "Creative Technologist",
     company: "BMW Group",
     link: "https://www.bmwgroup.com",
     date: "2021",
