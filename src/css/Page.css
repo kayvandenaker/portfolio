@@ -151,7 +151,7 @@ audio{
 }
 
 .about-grid sup{
-    color: #757575;
+    color: #b9b9b9;;
 }
 
 
@@ -243,24 +243,30 @@ audio{
 }
 
 .about-grid div:nth-child(odd):not(.profile){
-    opacity: 0.4;
+    color: #b9b9b9;
     font-size: 15px;
 }
 
 .about-grid div:nth-child(even) span{
     font-size: 14px;
     display: block;
-    margin: 0.2rem 0 1.75rem 0;
+    margin: 0.1rem 0 2rem 0;
     /* opacity: 0.8; */
+    
+    color: #b9b9b9;
+}
+
+.about-grid div:nth-child(even) span span{
+    margin-top: 1rem;
     color: #757575;
 }
 
-.light-grey{
+/* .light-grey{
     font-size: 14px;
     display: block;
     margin: 0 0 1.25rem 0;
     opacity: 0.4;
-  }
+  } */
 
 iframe + .context{
     border-top: none;

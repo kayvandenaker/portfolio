@@ -161,7 +161,7 @@ function AboutContent({title, linkName, link, subtitle, description, detail, key
     <div>{detail}</div>
     <div>
       {title ? title + " at" : ""} <a href={link} target="_blank">{linkName}</a>
-      {subtitle ? <span>{subtitle} {description ? <><br/><br/><span dangerouslySetInnerHTML={{__html: description}}></span></> : ""}</span> : "" }
+      {subtitle ? <span>{subtitle} {description ? <><span dangerouslySetInnerHTML={{__html: description}}></span></> : ""}</span> : "" }
     </div>
   </React.Fragment>
   )
