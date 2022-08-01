@@ -71,7 +71,7 @@ const educationItems = [
     description: "Class Representative"
   },
   {
-    title: "BSc, Industrial Design w/ honors",
+    title: "BSc (Hons), Industrial Design",
     university: "Eindhoven University of Technology",
     link: "https://www.tue.nl/en/",
     date: "2016 - 2021",
@@ -134,11 +134,12 @@ function About({onNextClick}) {
           <div className='about-grid'>
             <div><Link to='/tiles' onClick={onNextClick}>Tiles</Link></div>
             <div>
+              <a href='https://www.protopie.io/blog/building-interactive-music-device-with-protopie/' target="_blank">ProtoPie Blog</a><br/>
               <a href='https://www.stirpad.com/news/stir-news/tiles-introduces-a-unique-and-engaging-analogue-music-experience/' target="_blank">STIR</a><br/>
               <a href='https://designwanted.com/tiles-connects-you-deeper-with-your-music-collection/' target="_blank">Design Wanted</a><br/>
               <a href='https://www.instagram.com/p/CcnQVeXJFVu/' target="_blank">Yanko Design</a><br/>
-              <a href='https://twitter.com/withtony/status/1515666413817516037' target="_blank"><i>"Pushes the boundary of imagination"</i> — Tony Kim, CEO ProtoPie</a><br/>
-              <a href='https://www.instagram.com/p/CchqnE9D4lO/' target="_blank">Megosu</a>
+              <a href='https://www.instagram.com/p/CchqnE9D4lO/' target="_blank">Megosu</a><br/>
+              <a href='https://blog-espritdesign.com/high-tech/tablette/tiles-quand-le-son-devient-interactif-68283' target="_blank">Blog Esprit Design</a>
             </div>
             <div><Link to='/arch' onClick={onNextClick}>Arch</Link></div><div><a href='https://www.dubaidesignweek.ae' target="_blank">Dubai Design Week</a><sup>'22</sup></div>
             <div><Link to='/bmw' onClick={onNextClick}>BMW Group</Link></div><div><a href='https://www.iaa.de' target="_blank">BMW i Vision Circular, IAA Mobility</a><sup>'21</sup></div>
