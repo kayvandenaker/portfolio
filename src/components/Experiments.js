@@ -18,6 +18,11 @@ function Experiments({onZoomClick, onNextClick}) {
           <video controls src="./img/experiments/lines.mp4" type="video/mp4" autoPlay={true} muted loop playsInline>Your browser does not support the video tag.</video>
           <img src="./img/experiments/lines.jpg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
 
+          <h3>Generative Shaders</h3>
+          <p>Using shaders to generate colorful animations.<br/>Made using various noise textures and gradients in Blender.</p>
+          <video controls src="./img/experiments/colors.mp4" type="video/mp4" autoPlay={true} muted loop playsInline>Your browser does not support the video tag.</video>
+          <img src="./img/experiments/colors.png" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
+
           <h3>Kinect Kitchen</h3>
           <p>Kitchens can be fun, especially with generative art. <br/>Projection mapping and image processing in TouchDesigner + Kinect for body tracking.</p>
           <video controls src="./img/experiments/kinect.mp4" type="video/mp4" autoPlay={true} muted loop playsInline>Your browser does not support the video tag.</video>
