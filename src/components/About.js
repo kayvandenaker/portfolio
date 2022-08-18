@@ -7,17 +7,17 @@ const experienceItems = [
     title: "Design Technologist",
     company: "Above",
     link: "https://www.above.se",
-    date: "upcoming 🍂",
+    date: "now",
     location: "Malmö, Sweden",
     description: ""
   },
   {
-    title: "Content Creator",
+    title: "Interaction Designer",
     company: "Arduino",
     link: "https://www.arduino.cc",
-    date: "now",
+    date: "2022",
     location: "Malmö, Sweden",
-    description: ""
+    description: "Documentation website research, redesign and prototyping (react.js). Creating content for MicroPython."
   },
   {
     title: "Interaction Designer",
@@ -102,7 +102,7 @@ function About({onNextClick}) {
             </div>
           </div>
           <h3>About</h3>
-          Designer and technologist exploring interactions that fuse the digital and physical world. Thrives in ambiguous environments using a hands-on and iterative approach focused on experience prototyping; putting concepts in the world by gluing together various hard- and software.
+          Designer and technologist exploring interactions that fuse digital and physical. Thrives in ambiguous environments using a hands-on and iterative approach focused on experience prototyping; putting concepts in the world by gluing together various hard- and software.
           <br/><br/>
           Outside the design and tech world, you can find me travelling, exploring philosophy or doing water sports - surfing, diving and sailing are among my favorites. 💃
         

@@ -20,8 +20,14 @@ function Experiments({onZoomClick, onNextClick}) {
 
           <h3>Generative Shaders</h3>
           <p>Using shaders to generate colorful animations.<br/>Made using various noise textures and gradients in Blender.</p>
-          <video controls src="./img/experiments/colors.mp4" type="video/mp4" autoPlay={true} muted loop playsInline>Your browser does not support the video tag.</video>
+          <video controls src="./img/experiments/colors.mp4" type="video/mp4" autoPlay={true}  muted loop playsInline>Your browser does not support the video tag.</video>
           <img src="./img/experiments/colors.png" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
+
+          <h3>Timer Concept</h3>
+          <p>Micro interaction to go from 0:59 to 1:00.<br/>Made using ProtoPie, tested on iPhone.</p>
+          <video controls src="./img/experiments/timer.mp4" type="video/mp4" autoPlay={true} className="smallVideo" muted loop playsInline>Your browser does not support the video tag.</video>
+          <img src="./img/experiments/timer.png" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
+
 
           <h3>Kinect Kitchen</h3>
           <p>Kitchens can be fun, especially with generative art. <br/>Projection mapping and image processing in TouchDesigner + Kinect for body tracking.</p>
@@ -30,7 +36,7 @@ function Experiments({onZoomClick, onNextClick}) {
     
           <h3>Kona Focus</h3>
           <p>Apple Watch concept for meditation in the Hyundai Kona when it drives autonomously. <br/>Made using ProtoPie.</p>
-          <video controls src="./img/experiments/kona.mp4" type="video/mp4" autoPlay={true} muted loop playsInline>Your browser does not support the video tag.</video>
+          <video controls src="./img/experiments/kona.mp4" type="video/mp4" autoPlay={true} className="smallVideo" muted loop playsInline>Your browser does not support the video tag.</video>
           <img src="./img/experiments/kona.png" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
         
           <h3>Immersive Learning</h3>
@@ -41,7 +47,7 @@ function Experiments({onZoomClick, onNextClick}) {
     
           <h3>Desktop Switcher</h3>
           <p>Switching between desktops, clicky style. <br/>Adafruit 32U4 with microswitches emulating keyboard shortcuts ctrl + windows + left/right.</p>
-          <video controls src="./img/experiments/desktop.mp4" type="video/mp4" autoPlay={true} muted loop playsInline>Your browser does not support the video tag.</video>
+          <video controls src="./img/experiments/desktop.mp4" type="video/mp4" autoPlay={true} className="smallVideo" muted loop playsInline>Your browser does not support the video tag.</video>
           <img src="./img/experiments/desktop.jpg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
     
           <h3>MIDI Controller</h3>

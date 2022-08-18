@@ -232,6 +232,11 @@ audio{
 } */
 
 
+.smallVideo{
+    width: 50%;
+}
+
+
 
 .profile{
     background-size: cover;
@@ -308,6 +313,9 @@ iframe + .context{
 }
 
 @media only screen and (max-width: 600px) {
+    .smallVideo{
+        width: 100%;
+    }
     .half{
         grid-template-columns: 1fr;
     }
@@ -331,6 +339,9 @@ iframe + .context{
     }
     .about-grid .profile + div{
         text-align: center;
+    }
+    .about-grid div:nth-child(even) span{
+        margin-bottom: 1rem;
     }
 
 }

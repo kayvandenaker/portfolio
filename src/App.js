@@ -103,7 +103,7 @@ function App() {
             <div id="head-glow" className={(hover !== "") ? "active" : ""} style={{background: "radial-gradient(" + color + "66 0%, " + color + "00 70%)"}}></div>
             <div className='head-about'>
               <h1>Kay van den Aker</h1>
-              Designer and technologist who explores, iterates and communicates through experience prototyping. <br/><br/>Currently working at <a className='white' href='https://www.arduino.cc' target="_blank">Arduino</a> and mastering Interaction Design at <a className='white' href='https://www.uid.umu.se/en/' target="_blank">Umeå Institute of Design</a>.
+              Designer and technologist exploring interactions that fuse digital and physical through prototyping. <br/><br/>Currently working at <a className='white' href='https://www.above.se' target="_blank">Above</a> and mastering Interaction Design at <a className='white' href='https://www.uid.umu.se/en/' target="_blank">Umeå Institute of Design</a>.
               <br /><br />
               {/* <span className='grey'>↳</span> <Link to="/about" onClick={handleLinkClick}>About / Contact me</Link> */}
               ↳ <span className='white'><Link to="/about" onClick={handleLinkClick}>About / Contact me</Link></span>
