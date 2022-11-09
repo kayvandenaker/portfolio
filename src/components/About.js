@@ -102,7 +102,7 @@ function About({onNextClick}) {
             </div>
           </div>
           <h3>About</h3>
-          Designer and technologist exploring interactions that fuse digital and physical. Thrives in ambiguous environments using a hands-on and iterative approach focused on experience prototyping; putting concepts in the world by gluing together various hard- and software.
+          Design technologist exploring interactions that fuse digital and physical. Thrives in ambiguous environments using a hands-on and iterative approach focused on experience prototyping; putting concepts in the world by gluing together various hard- and software.
           <br/><br/>
           Outside the design and tech world, you can find me travelling, exploring philosophy or doing water sports - surfing, diving and sailing are among my favorites. 💃
         
