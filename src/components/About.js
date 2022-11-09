@@ -12,7 +12,7 @@ const experienceItems = [
     description: ""
   },
   {
-    title: "Interaction Designer",
+    title: "Design Technologist",
     company: "Arduino",
     link: "https://www.arduino.cc",
     date: "2022",
@@ -20,7 +20,7 @@ const experienceItems = [
     description: "Documentation website research, redesign and prototyping (react.js). Creating content for MicroPython."
   },
   {
-    title: "Interaction Designer",
+    title: "Design Technologist",
     company: "Rolls-Royce Motor Cars",
     link: "https://www.rolls-roycemotorcars.com",
     date: "2022",
@@ -44,7 +44,7 @@ const experienceItems = [
     description: ""
   },
   {
-    title: "Interaction Designer / Co-Founder",
+    title: "Design Technologist / Co-Founder",
     company: "Team RED",
     link: "/team-red",
     date: "2017 - 2019",
