@@ -57,7 +57,7 @@ function Tiles({onZoomClick, onNextClick}) {
           <h3>Model Making</h3>
           <p>This project was a collaboration with the Product Design MFA, so the fancy model you see bellow is mostly their work. I helped with the mechanical parts of the mockup and the video editting.</p>
           <img src="./img/tiles/process.jpeg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
-          <img src="./img/tiles/render.jpeg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
+          <img src="./img/tiles/render2.jpeg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
           <img src="./img/tiles/back.jpg" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
 
           <div className='next'>

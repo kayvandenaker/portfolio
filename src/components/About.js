@@ -134,6 +134,7 @@ function About({onNextClick}) {
           <div className='about-grid'>
             <div><Link to='/tiles' onClick={onNextClick}>Tiles</Link></div>
             <div>
+              <a href='https://www.protopie.io/blog/best-prototypes-of-the-year' target="_blank">Best ProtoPie Prototypes</a><sup>'22</sup><br/>
               <a href='https://www.protopie.io/blog/building-interactive-music-device-with-protopie/' target="_blank">ProtoPie Blog</a><br/>
               <a href='https://www.stirpad.com/news/stir-news/tiles-introduces-a-unique-and-engaging-analogue-music-experience/' target="_blank">STIR</a><br/>
               <a href='https://designwanted.com/tiles-connects-you-deeper-with-your-music-collection/' target="_blank">Design Wanted</a><br/>
@@ -142,7 +143,12 @@ function About({onNextClick}) {
               <a href='https://blog-espritdesign.com/high-tech/tablette/tiles-quand-le-son-devient-interactif-68283' target="_blank">Blog Esprit Design</a>
             </div>
             <div><Link to='/arch' onClick={onNextClick}>Arch</Link></div><div><a href='https://www.dubaidesignweek.ae' target="_blank">Dubai Design Week</a><sup>'22</sup></div>
-            <div><Link to='/bmw' onClick={onNextClick}>BMW Group</Link></div><div><a href='https://www.iaa.de' target="_blank">BMW i Vision Circular, IAA Mobility</a><sup>'21</sup></div>
+            <div><Link to='/bmw' onClick={onNextClick}>BMW i Vision Circular</Link></div>
+            <div>
+              <a href='https://ifdesign.com/en/winner-ranking/project/bmw-i-vision-circular/347328' target="_blank">iF Design Award</a><sup>'22</sup><br/>
+              <a href='https://www.dubaidesignweek.ae/programme/2022/bmw-i-circular-vision/' target="_blank">Dubai Design Week</a><sup>'22</sup><br/>
+              <a href='https://www.iaa.de' target="_blank">IAA Mobility</a><sup>'21</sup>
+            </div>
             <div><Link to='/team-red' onClick={onNextClick}>Team RED</Link></div>
             <div>
               <a href='https://ddw.nl' target="_blank">Drivers of Change exhibition, Dutch Design Week</a><sup>'20</sup><br/>
