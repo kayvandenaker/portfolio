@@ -7,7 +7,7 @@ const experienceItems = [
     title: "Design Technologist",
     company: "Above",
     link: "https://www.above.se",
-    date: "now",
+    date: "2022 - now",
     location: "Malmö, Sweden",
     description: "Interaction design and experience prototyping (protopie, unity, touchdesigner, arduino, madmapper)."
   },
