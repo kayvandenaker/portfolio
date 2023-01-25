@@ -9,7 +9,7 @@ const experienceItems = [
     link: "https://www.above.se",
     date: "now",
     location: "Malmö, Sweden",
-    description: ""
+    description: "Interaction design and experience prototyping (protopie, unity, touchdesigner, arduino, madmapper)."
   },
   {
     title: "Design Technologist",
