@@ -16,7 +16,7 @@ function Experiments({onZoomClick, onNextClick}) {
           <h3>Radar presence detection</h3>
           <p>Exploring the possibilities of UWB as radar to detect human presence. <br/> Novelda UWB X4 sensor is talking to ProtoPie through a custom Python bridge. ProtoPie is visualizing the data and controlling a NeoPixel through an Adafruit Feather M0.</p>
           <video controls src="./img/experiments/uwb.mp4" type="video/mp4" autoPlay={true}  muted loop playsInline>Your browser does not support the video tag.</video>
-          <img src="./img/experiments/uwb2.mp4" alt="" className="img-zoomer" onClick={(e) => {onZoomClick(e.target.src)}}/>
+          <video controls src="./img/experiments/uwb2.mp4" type="video/mp4" autoPlay={true}  muted loop playsInline>Your browser does not support the video tag.</video>
 
           <h3>Tactile Slider</h3>
           <p>Slider texture exploration as media controller. <br/>Arduino with Adafruit MPR121 capacitive touch sensor + Processing for the album animations.</p>
