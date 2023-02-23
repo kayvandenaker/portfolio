@@ -65,7 +65,7 @@ const educationItems = [
   {
     title: "MFA, Interaction Design",
     university: "Umeå Institute of Design",
-    link: "https://www.uid.umu.se/en/",
+    link: "https://www.umu.se/en/umea-institute-of-design/",
     date: "2021 - now",
     location: "Umeå, Sweden",
     description: "Class Representative"
@@ -76,16 +76,16 @@ const educationItems = [
     link: "https://www.tue.nl/en/",
     date: "2016 - 2021",
     location: "Eindhoven, Netherlands",
-    description: 'Chairman of Study Association Lucid <br/> Student Council of the Honors Academy <br/> Surf Committee of Avalanche Boarders'
+    description: 'Chairman of Study Association Lucid <br/> Exchange Umeå Institute of Design <br/> Student Council of the Honors Academy'
   },
-  {
-    title: "Exchange, Industrial Design",
-    university: "Umeå Institute of Design",
-    link: "https://www.uid.umu.se/en/",
-    date: "2019 - 2020",
-    location: "Umeå, Sweden",
-    description: ""
-  }
+  // {
+  //   title: "Exchange, Industrial Design",
+  //   university: "Umeå Institute of Design",
+  //   link: "https://www.uid.umu.se/en/",
+  //   date: "2019 - 2020",
+  //   location: "Umeå, Sweden",
+  //   description: ""
+  // }
 ]
 
 function About({onNextClick}) {
@@ -96,7 +96,7 @@ function About({onNextClick}) {
             <div className='profile' style={{backgroundImage: "url('./img/profile2.jpg'"}}></div>
             <div>
               <h2>Kay van den Aker</h2>
-              <p>Design Technologist at Above | MFA IxD at Umeå Institute of Design
+              <p>Design Technologist at <a href="https://www.above.se" target="_blank">Above</a> | MFA IxD at <a href="https://www.umu.se/en/umea-institute-of-design/" target="_blank">Umeå Institute of Design</a>
                 <span style={{ marginBottom: 0}}>Located in Malmö, Sweden</span>
               </p>
             </div>
@@ -104,7 +104,11 @@ function About({onNextClick}) {
           <h3>About</h3>
           Design technologist exploring interactions that fuse digital and physical. Thrives in ambiguous environments using a hands-on and iterative approach focused on experience prototyping; putting concepts in the world by gluing together various hard- and software.
           <br/><br/>
-          Outside the design and tech world, you can find me travelling, exploring philosophy or doing water sports - surfing, diving and sailing are among my favorites. 💃
+          Right now he's doing exactly that at <a href="https://www.above.se" target="_blank">Above</a>. Before that, he created content at <a href="https://www.arduino.cc" target="_blank">Arduino</a> and built bespoke innovation concepts at <a href="https://www.rolls-roycemotorcars.com" target="_blank">Rolls-Royce</a> whilst mastering IxD at <a href="https://www.umu.se/en/umea-institute-of-design/" target="_blank">UID</a>. 
+          Earlier, he prototyped concept car mockups at <a href="https://www.bmwgroup.com" target="_blank">BMW</a> and did bachelors in ID at the <a href="https://www.tue.nl/en/" target="_blank">TU/e</a>.
+          There he also co-founded <Link to="/team-red" onClick={onNextClick}>Team RED</Link>, a startup creating an interactive map to explore future energy scenarios together. 
+          <br/><br/>
+          Outside the design and tech world, you can find him travelling, exploring philosophy or in the ocean doing various water sports. He's also been a surf instructor in Spain for a bit. 🏄🏼‍♂️
         
 
           <h3>Contact</h3>

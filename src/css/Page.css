@@ -247,6 +247,14 @@ audio{
     border-radius: 100%;;
 }
 
+.about-grid div:has(span){
+    margin-bottom: 2rem;
+}
+
+.about-grid div:last-of-type{
+    margin-bottom:0;
+}
+
 .about-grid div:nth-child(odd):not(.profile){
     color: #b9b9b9;
     font-size: 15px;
@@ -255,9 +263,7 @@ audio{
 .about-grid div:nth-child(even) span{
     font-size: 14px;
     display: block;
-    margin: 0.1rem 0 2rem 0;
-    /* opacity: 0.8; */
-    
+    margin: 0.1rem 0 0 0;
     color: #b9b9b9;
 }
 
