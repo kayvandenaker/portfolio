@@ -32,13 +32,13 @@ function Arch({onZoomClick, onNextClick}) {
           <p> Our approach is a full body scan of the people and projecting those in augmented reality at their opponent. This creates an immersive experience of togetherness and allows both doctor and patient to express themselves using their full body.</p>
           
           <div className='context quarter'>
-            <div><b>Project Info</b> <br/>10 weeks, autumn 2021<br/>  Professional Product Design<br/>  <a href='https://www.uid.umu.se/en/' target="_blank">Umeå Institute of Design</a><br/></div>
-            <div><b>Team</b> <br/>
+            <div><h4>Project Info</h4> 10 weeks, autumn 2021<br/>  Professional Product Design<br/>  <a href='https://www.uid.umu.se/en/' target="_blank">Umeå Institute of Design</a><br/></div>
+            <div><h4>Team</h4>
               <a href="https://lukasmoro.com" target="_blank">Lukas Moro</a><br/> 
               <a href="https://www.josiereilly.com" target="_blank">Josie Reilly</a><br/> 
               <a href="https://www.wtianyiportfolio.com" target="_blank">Tianyi Wang</a>
               </div>
-            <div><b>Partner</b><br/> <a href='https://www.regionvasterbotten.se/' target="_blank">Region Västerbotten</a><br/><a href='https://www.nordicrebels.com/' target="_blank">Nordic Rebels</a></div>
+            <div><h4>Partner</h4> <a href='https://www.regionvasterbotten.se/' target="_blank">Region Västerbotten</a><br/><a href='https://www.nordicrebels.com/' target="_blank">Nordic Rebels</a></div>
           </div>
           
           <h2>Concept Video</h2>

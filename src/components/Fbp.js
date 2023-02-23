@@ -43,8 +43,8 @@ function Fbp({onZoomClick, onNextClick}) {
             <b>When:</b> Fall Semester, 2020
           </div> */}
           <div className='context quarter'>
-            <div><b>Project Info</b> <br/>20 weeks, autumn 2020<br/> Bachelor Thesis<br/> <a href='https://www.tue.nl/en/' target="_blank">Eindhoven University of Technology</a><br/></div>
-            <div><b>Supervisor</b><br/> Prof. B. J. Hengeveld</div>
+            <div><h4>Project Info</h4> 20 weeks, autumn 2020<br/> Bachelor Thesis<br/> <a href='https://www.tue.nl/en/' target="_blank">Eindhoven University of Technology</a><br/></div>
+            <div><h4>Supervisor</h4> Prof. B. J. Hengeveld</div>
           </div>
 
           <h2>Concept Video</h2>

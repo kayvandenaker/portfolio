@@ -123,6 +123,14 @@ h3{
   font-weight: 600;
 }
 
+h4{
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  padding: 0;
+  color: black;
+  font-weight: 600;
+}
+
 b{
   color: black;
   font-weight: 600;

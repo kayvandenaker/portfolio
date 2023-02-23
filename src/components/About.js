@@ -35,14 +35,14 @@ const experienceItems = [
     location: "Munich, Germany",
     description: "Intern at the early-phase design and development department. (concept cars) <br/> Translating designers’ ideas into interactive experience prototypes combining various hardware and software to explore, iterate and validate concepts in the beginning of the design process. (arduino, kinect, unity, madmapper, leap motion, touchdesigner, protopie, fmod)"
   },
-  {
-    title: "Surf Instructor",
-    company: "Flowtrack",
-    link: "https://www.flowtrack.be",
-    date: "2019",
-    location: "San Vicente de la Barquera, Spain",
-    description: ""
-  },
+  // {
+  //   title: "Surf Instructor",
+  //   company: "Flowtrack",
+  //   link: "https://www.flowtrack.be",
+  //   date: "2019",
+  //   location: "San Vicente de la Barquera, Spain",
+  //   description: ""
+  // },
   {
     title: "Design Technologist / Co-Founder",
     company: "Team RED",
@@ -51,14 +51,14 @@ const experienceItems = [
     location: "Eindhoven, Netherlands",
     description: "Student startup focused on the acceleration of the energy transition by providing an interactive map on which the impact of sustainable innovations can be simulated."
   },
-  {
-    title: "Co-Design Facilitator",
-    company: "Newcastle University",
-    link: "https://openlab.ncl.ac.uk",
-    date: "2018",
-    location: "Lunteren, Netherlands",
-    description: "Facilitator for Myto, a co-design event about mitochondrial disease organized by Open Lab from the Newcastle University."
-  },
+  // {
+  //   title: "Co-Design Facilitator",
+  //   company: "Newcastle University",
+  //   link: "https://openlab.ncl.ac.uk",
+  //   date: "2018",
+  //   location: "Lunteren, Netherlands",
+  //   description: "Facilitator for Myto, a co-design event about mitochondrial disease organized by Open Lab from the Newcastle University."
+  // },
 ]
 
 const educationItems = [
@@ -118,14 +118,15 @@ function About({onNextClick}) {
           <h3>Experience</h3>
           <div className='about-grid'> 
             {experienceItems.map((el, i) => (
-              <AboutContent title={el.title} linkName={el.company} link={el.link} subtitle={el.location} description={el.description} detail={el.date} key={i} />
+              // <AboutContent title={el.title} linkName={el.company} link={el.link} subtitle={el.location} description={el.description} detail={el.date} key={i} />
+              <AboutContent title={el.title} linkName={el.company} link={el.link} subtitle={el.description}  detail={el.date} key={i} />
             ))}
           </div>
 
           <h3>Education</h3>
           <div className='about-grid'> 
             {educationItems.map((el, i) => (
-              <AboutContent title={el.title} linkName={el.university} link={el.link} subtitle={el.location} description={el.description} detail={el.date} key={i} />
+              <AboutContent title={el.title} linkName={el.university} link={el.link} subtitle={el.description} detail={el.date} key={i} />
             ))}
           </div>
 
@@ -168,7 +169,8 @@ function AboutContent({title, linkName, link, subtitle, description, detail, key
     <div>{detail}</div>
     <div>
       {title ? title + " at" : ""} <a href={link} target="_blank">{linkName}</a>
-      {subtitle ? <span>{subtitle} {description ? <><span dangerouslySetInnerHTML={{__html: description}}></span></> : ""}</span> : "" }
+      {/* {subtitle ? <span>{subtitle} {description ? <><span dangerouslySetInnerHTML={{__html: description}}></span></> : ""}</span> : "" } */}
+      {subtitle ? <><span dangerouslySetInnerHTML={{__html: subtitle}}></span></> : ""}
     </div>
   </React.Fragment>
   )

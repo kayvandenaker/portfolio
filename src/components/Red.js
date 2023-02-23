@@ -35,8 +35,8 @@ function Red({onZoomClick, onNextClick}) {
             </div>
           </div>
           <div className='context quarter'>
-            <div><b>Context</b> <br/>2 years, 2017 - 2019<br/>  Student Team <br/> <a href='https://www.tue.nl/en/education/bachelor-college/honors-academy/' target="_blank">TU/e Honors Academy</a><br/></div>
-            <div><b>Partner</b><br/> <a href='https://www.exentr.com/' target="_blank">Exentr</a></div>
+            <div><h4>Context</h4> 2 years, 2017 - 2019<br/>  Student Team <br/> <a href='https://www.tue.nl/en/education/bachelor-college/honors-academy/' target="_blank">TU/e Honors Academy</a><br/></div>
+            <div><h4>Partner</h4><a href='https://www.exentr.com/' target="_blank">Exentr</a></div>
           </div>
 
           {/* <h2>Concept Video</h2>

@@ -26,8 +26,8 @@ function Bmw({onZoomClick, onNextClick}) {
             </div>
           </div>
           <div className='context quarter'>
-            <div><b>Context</b> <br/>6 months, spring 2021<br/>  Internship<br/>  <a href='https://www.bmwgroup.com/' target="_blank">BMW Group</a><br/></div>
-            <div><b>Supervisor</b><br/>Daniel Fischer</div>
+            <div><h4>Context</h4> 6 months, spring 2021<br/>  Internship<br/>  <a href='https://www.bmwgroup.com/' target="_blank">BMW Group</a><br/></div>
+            <div><h4>Supervisor</h4>Daniel Fischer</div>
           </div>
 
           <h2>What I worked on...</h2>
