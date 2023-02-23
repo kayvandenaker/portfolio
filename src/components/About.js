@@ -93,7 +93,7 @@ function About({onNextClick}) {
     <div className='page-container'>
         <div className='page-content about'>
           <div className='about-grid'>
-            <div className='profile' style={{backgroundImage: "url('./img/head2.jpg'"}}></div>
+            <div className='profile' style={{backgroundImage: "url('./img/profile2.jpg'"}}></div>
             <div>
               <h2>Kay van den Aker</h2>
               <p>Design Technologist at Above | MFA IxD at Umeå Institute of Design
