@@ -73,7 +73,7 @@
 .head a:hover{
   text-decoration: underline;
   text-decoration-color: white;
-  /* text-decoration-thickness: 1px; */
+  text-decoration-thickness: 1px;
 }
 
 .grey{
@@ -87,6 +87,10 @@
   top: calc(50vh - 67px - 1rem);
   left: 96px;
   width: 475px;
+  max-width: 450px;
+}
+
+.head-about div{
   max-width: 450px;
 }
 
@@ -209,7 +213,7 @@
     padding: 60vh 0 4rem 0;
     width: var(--container-width);
     max-width: 736px;
-    
+    /* box-sizing: border-box; */
   }
   .head-projects, #head-glow{
     display: none;

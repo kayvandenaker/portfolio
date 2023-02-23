@@ -347,6 +347,9 @@ iframe + .context{
     .about-grid .profile + div{
         text-align: center;
     }
+    .about-grid div:has(span){
+        margin-bottom: 0;
+    }
     .about-grid div:nth-child(even) span{
         margin-bottom: 1rem;
     }
