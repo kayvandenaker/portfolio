@@ -7,7 +7,7 @@ function Experiments({onZoomClick, onNextClick}) {
         <div className='page-content'>
           <h2>Experiments</h2>
           <p>A collection of experiments with hardware, software and everything in between.</p>
- 
+
           <h3>Tactile touch interfaces</h3>
           <p>Textured textiles as tactile touch interfaces.<br/> Neonode touch sensor as input for ProtoPie, projection mapped onto textile using MadMapper.</p>
           <video controls src="./img/experiments/touchbar.mp4" type="video/mp4" autoPlay={true} className="smallVideo" muted loop playsInline>Your browser does not support the video tag.</video>
@@ -17,6 +17,10 @@ function Experiments({onZoomClick, onNextClick}) {
           <p>Exploring the possibilities of UWB as radar to detect human presence. <br/> Novelda UWB X4 sensor is talking to ProtoPie through a custom Python bridge. ProtoPie is visualizing the data and controlling a NeoPixel through an Adafruit Feather M0.</p>
           <video controls src="./img/experiments/uwb.mp4" type="video/mp4" autoPlay={true}  muted loop playsInline>Your browser does not support the video tag.</video>
           <video controls src="./img/experiments/uwb2.mp4" type="video/mp4" autoPlay={true}  muted loop playsInline>Your browser does not support the video tag.</video>
+
+          <h3>Trackpad Visualization</h3>
+          <p>Simple I2C trackpad visualization.<br/> Azoteq TPS65 trackpad sensor as input for ProtoPie through Arduino.</p>
+          <video controls src="./img/experiments/touchpad.mp4" type="video/mp4" autoPlay={true} muted loop playsInline>Your browser does not support the video tag.</video>
 
           <h3>Tactile Slider</h3>
           <p>Slider texture exploration as media controller. <br/>Arduino with Adafruit MPR121 capacitive touch sensor + Processing for the album animations.</p>
