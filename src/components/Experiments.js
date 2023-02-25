@@ -16,6 +16,7 @@ function Experiments({onZoomClick, onNextClick}) {
           <h3>Bodystorming car interactions</h3>
           <p>Projection mapping Figma to get a quick feel for interactions, dimensions and layout.<br/> MadMapper screencapturing Figma and mapped onto various projection surfaces.</p>
           <video controls src="./img/experiments/bodystorming.mp4" type="video/mp4" autoPlay={true} muted loop playsInline>Your browser does not support the video tag.</video>
+          <video controls src="./img/experiments/bodystorming2.mp4" type="video/mp4" autoPlay={true}  muted loop playsInline>Your browser does not support the video tag.</video>
 
           <h3>Radar presence detection</h3>
           <p>Exploring the possibilities of UWB as radar to detect human presence. <br/> Novelda UWB X4 sensor is talking to ProtoPie through a custom Python bridge. ProtoPie is visualizing the data and controlling a NeoPixel through an Adafruit Feather M0.</p>
