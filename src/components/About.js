@@ -4,6 +4,14 @@ import { Link} from 'react-router-dom';
 
 const experienceItems = [
   {
+    title: "Prototyper",
+    company: "ProtoPie",
+    link: "https://www.protopie.io",
+    date: "2023 - now",
+    location: "Remote",
+    description: "Building demos and writing tutorials focussing on hardware integration."
+  },
+  {
     title: "Design Technologist",
     company: "Above",
     link: "https://www.above.se",
@@ -49,16 +57,8 @@ const experienceItems = [
     link: "/team-red",
     date: "2017 - 2019",
     location: "Eindhoven, Netherlands",
-    description: "Student startup focused on the acceleration of the energy transition by providing an interactive map on which the impact of sustainable innovations can be simulated."
+    description: "Startup focused on the acceleration of the energy transition by providing an interactive map on which the impact of sustainable innovations can be simulated."
   },
-  // {
-  //   title: "Co-Design Facilitator",
-  //   company: "Newcastle University",
-  //   link: "https://openlab.ncl.ac.uk",
-  //   date: "2018",
-  //   location: "Lunteren, Netherlands",
-  //   description: "Facilitator for Myto, a co-design event about mitochondrial disease organized by Open Lab from the Newcastle University."
-  // },
 ]
 
 const educationItems = [
@@ -78,14 +78,6 @@ const educationItems = [
     location: "Eindhoven, Netherlands",
     description: 'Chairman of Study Association Lucid <br/> Exchange Umeå Institute of Design <br/> Student Council of the Honors Academy'
   },
-  // {
-  //   title: "Exchange, Industrial Design",
-  //   university: "Umeå Institute of Design",
-  //   link: "https://www.uid.umu.se/en/",
-  //   date: "2019 - 2020",
-  //   location: "Umeå, Sweden",
-  //   description: ""
-  // }
 ]
 
 function About({onNextClick}) {
@@ -106,7 +98,7 @@ function About({onNextClick}) {
           <br/><br/>
           Right now he's doing exactly that at <a href="https://www.above.se" target="_blank">Above</a>. Before that, he created content at <a href="https://www.arduino.cc" target="_blank">Arduino</a> and built bespoke innovation concepts at <a href="https://www.rolls-roycemotorcars.com" target="_blank">Rolls-Royce</a> whilst mastering IxD at <a href="https://www.umu.se/en/umea-institute-of-design/" target="_blank">UID</a>. 
           Earlier, he prototyped concept car mockups at <a href="https://www.bmwgroup.com" target="_blank">BMW</a> and did bachelors in ID at the <a href="https://www.tue.nl/en/" target="_blank">TU/e</a>.
-          There he also co-founded <Link to="/team-red" onClick={onNextClick}>Team RED</Link>, a startup creating an interactive map to explore future energy scenarios together. 
+          There he also co-founded <Link to="/team-red" onClick={onNextClick}>Team RED</Link>, a startup creating a tool to explore future energy scenarios together. 
           <br/><br/>
           Outside the design and tech world, you can find him travelling, exploring philosophy or in the ocean doing various water sports. He's also been a surf instructor in Spain for a bit. 🏄🏼‍♂️
         
@@ -172,7 +164,7 @@ function AboutContent({title, linkName, link, subtitle, description, detail, key
     <React.Fragment key={key}>
     <div>{detail}</div>
     <div>
-      {title ? title + " at" : ""} <a href={link} target="_blank">{linkName}</a>
+      {title ? title : ""} {title && linkName ? "at" : ""} <a href={link} target="_blank">{linkName}</a>
       {/* {subtitle ? <span>{subtitle} {description ? <><span dangerouslySetInnerHTML={{__html: description}}></span></> : ""}</span> : "" } */}
       {subtitle ? <><span dangerouslySetInnerHTML={{__html: subtitle}}></span></> : ""}
     </div>
