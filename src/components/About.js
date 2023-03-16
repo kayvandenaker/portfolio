@@ -20,7 +20,7 @@ const experienceItems = [
     description: "Interaction design and experience prototyping (protopie, unity, touchdesigner, arduino, madmapper)."
   },
   {
-    title: "Design Technologist",
+    title: "Content Creator",
     company: "Arduino",
     link: "https://www.arduino.cc",
     date: "2022",
