@@ -3,13 +3,21 @@ import { Link} from 'react-router-dom';
 
 
 const experienceItems = [
+  // {
+  //   title: "Prototyper",
+  //   company: "ProtoPie",
+  //   link: "https://www.protopie.io",
+  //   date: "2023 - now",
+  //   location: "Remote",
+  //   description: "Building demos and writing tutorials focussing on hardware integration."
+  // },
   {
-    title: "Prototyper",
-    company: "ProtoPie",
+    title: "Contractor",
+    company: "",
     link: "https://www.protopie.io",
-    date: "2023 - now",
+    date: "2022 - now",
     location: "Remote",
-    description: "Building demos and writing tutorials focussing on hardware integration."
+    description: "Hapticlabs – UI/UX design and demo support. (now) <br/> ProtoPie – Building demos focused on hardware integration. (now) <br/> Rolls-Royce – Digital interior concept for the bespoke innovations department. (5mo)"
   },
   {
     title: "Design Technologist",
@@ -17,31 +25,33 @@ const experienceItems = [
     link: "https://www.above.se",
     date: "2022 - now",
     location: "Malmö, Sweden",
-    description: "Interaction design and experience prototyping (protopie, unity, touchdesigner, arduino, madmapper)."
+    description: "Internship – Interaction design and experience prototyping."
   },
+
   {
     title: "Content Creator",
     company: "Arduino",
     link: "https://www.arduino.cc",
     date: "2022",
     location: "Malmö, Sweden",
-    description: "Documentation website research, redesign and prototyping (react.js). Creating content for MicroPython."
+    description: "Docs website redesign and prototyping. Creating uPython content."
   },
-  {
-    title: "Design Technologist",
-    company: "Rolls-Royce Motor Cars",
-    link: "https://www.rolls-roycemotorcars.com",
-    date: "2022",
-    location: "Goodwood, United Kingdom",
-    description: "Designing and prototyping a digital interior concept at the bespoke innovations department, mostly remote but sporadically on-site."
-  },
+  // {
+  //   title: "Design Technologist",
+  //   company: "Rolls-Royce Motor Cars",
+  //   link: "https://www.rolls-roycemotorcars.com",
+  //   date: "2022",
+  //   location: "Goodwood, United Kingdom",
+  //   description: "Designing and prototyping a digital interior concept for bespoke innovations."
+  // },
   {
     title: "Creative Technologist",
     company: "BMW Group",
     link: "https://www.bmwgroup.com",
     date: "2021",
     location: "Munich, Germany",
-    description: "Intern at the early-phase design and development department. (concept cars) <br/> Translating designers’ ideas into interactive experience prototypes combining various hardware and software to explore, iterate and validate concepts in the beginning of the design process. (arduino, kinect, unity, madmapper, leap motion, touchdesigner, protopie, fmod)"
+    description: "Internship – Experience prototyping at the concept car department."
+    // description: "Intern at the early-phase design and development department. (concept cars) <br/> Translating designers’ ideas into interactive experience prototypes combining various hardware and software to explore, iterate and validate concepts in the beginning of the design process. (arduino, kinect, unity, madmapper, leap motion, touchdesigner, protopie, fmod)"
   },
   // {
   //   title: "Surf Instructor",
