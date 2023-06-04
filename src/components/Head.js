@@ -1,7 +1,7 @@
 import {React, useRef, useState} from 'react'
 import { Canvas, useLoader, useFrame} from '@react-three/fiber'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
-import { EffectComposer, DotScreen  } from '@react-three/postprocessing'
+import { EffectComposer, DotScreen, Pixelation } from '@react-three/postprocessing'
 import { BlendFunction } from 'postprocessing'
 
 var rotationScale = 3;  
@@ -45,8 +45,11 @@ function Head({isFrontpage, hover, mouseX, mouseY}) {
             <pointLight color="white" position={[0, 0, 2]} intensity={3} />
             <color attach="background" args={["white"]} />
             <EffectComposer multisampling={0} disableNormalPass={true}>
+                {/* <DotScreen blendFunction={BlendFunction.OVERLAY} angle={Math.PI /2} scale={1} />
+                <Pixelation granularity={3} /> */}
                 <DotScreen blendFunction={BlendFunction.OVERLAY} angle={Math.PI /2} scale={0.65} />
             </EffectComposer>
+            
 
         </Canvas>
     )

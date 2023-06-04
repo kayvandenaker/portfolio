@@ -17,13 +17,13 @@ const experienceItems = [
     link: "https://www.protopie.io",
     date: "2022 - now",
     location: "Remote",
-    description: "Hapticlabs – UI/UX design and demo support. (now) <br/> ProtoPie – Building demos focused on hardware integration. (now) <br/> Rolls-Royce – Digital interior concept for the bespoke innovations department. (5mo)"
+    description: "Hapticlabs – Hardware integration, design and demo support. (now) <br/> ProtoPie – Building demos focused on hardware integration. (now) <br/> Rolls-Royce – Digital interior concept for the bespoke innovations department. (5mo)"
   },
   {
     title: "Design Technologist",
     company: "Above",
     link: "https://www.above.se",
-    date: "2022 - now",
+    date: "2022 - 2023",
     location: "Malmö, Sweden",
     description: "Internship – Interaction design and experience prototyping."
   },
