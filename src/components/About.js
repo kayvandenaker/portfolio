@@ -98,17 +98,17 @@ function About({onNextClick}) {
             <div className='profile' style={{backgroundImage: "url('./img/profile2.jpg'"}}></div>
             <div>
               <h2>Kay van den Aker</h2>
-              <p>Design Technologist at <a href="https://www.above.se" target="_blank">Above</a> | MFA IxD at <a href="https://www.umu.se/en/umea-institute-of-design/" target="_blank">Umeå Institute of Design</a>
-                <span style={{ marginBottom: 0}}>Located in Malmö, Sweden</span>
+              <p>Design Tech Contractor | MFA IxD at <a href="https://www.umu.se/en/umea-institute-of-design/" target="_blank">Umeå Institute of Design</a>
+                <span style={{ marginBottom: 0}}>Located in Umeå, Sweden</span>
               </p>
             </div>
           </div>
           <h3>About</h3>
           Design technologist exploring interactions that fuse digital and physical. Thrives in ambiguous environments using a hands-on and iterative approach focused on experience prototyping; putting concepts in the world by gluing together various hard- and software.
-          <br/><br/>
+          {/* <br/><br/>
           Right now he's doing exactly that at <a href="https://www.above.se" target="_blank">Above</a>. Before that, he created content at <a href="https://www.arduino.cc" target="_blank">Arduino</a> and built bespoke innovation concepts at <a href="https://www.rolls-roycemotorcars.com" target="_blank">Rolls-Royce</a> whilst mastering IxD at <a href="https://www.umu.se/en/umea-institute-of-design/" target="_blank">UID</a>. 
           Earlier, he prototyped concept car mockups at <a href="https://www.bmwgroup.com" target="_blank">BMW</a> and did bachelors in ID at the <a href="https://www.tue.nl/en/" target="_blank">TU/e</a>.
-          There he also co-founded <Link to="/team-red" onClick={onNextClick}>Team RED</Link>, a startup creating a tool to explore future energy scenarios together. 
+          There he also co-founded <Link to="/team-red" onClick={onNextClick}>Team RED</Link>, a startup creating a tool to explore future energy scenarios together.  */}
           <br/><br/>
           Outside the design and tech world, you can find him travelling, exploring philosophy or in the ocean doing various water sports. He's also been a surf instructor in Spain for a bit. 🏄🏼‍♂️
         

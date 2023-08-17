@@ -104,7 +104,7 @@ function App() {
             <div className='head-about'>
               <div>
               <h1>Kay van den Aker</h1>
-              Designer and technologist exploring interactions that fuse digital and physical through prototyping. <br/><br/>Currently working at <a className='white' href='https://www.above.se' target="_blank">Above</a> and mastering Interaction Design at <a className='white' href='https://www.uid.umu.se/en/' target="_blank">Umeå Institute of Design</a>.
+              Designer and technologist exploring interactions that fuse digital and physical through prototyping. <br/><br/>Currently contracting for <a className='white' href='https://www.protopie.io' target="_blank">ProtoPie</a> and <a className='white' href='https://www.hapticlabs.io' target="_blank">Hapticlabs</a> whilst mastering IxD at <a className='white' href='https://www.uid.umu.se/en/' target="_blank">Umeå Institute of Design</a>.
               <br /><br />
               {/* <span className='grey'>↳</span> <Link to="/about" onClick={handleLinkClick}>About / Contact me</Link> */}
               ↳ <span className='white'><Link to="/about" onClick={handleLinkClick}>About / Contact me</Link></span>
