@@ -106,6 +106,7 @@ function About({onNextClick}) {
           <h3>About</h3>
           Design technologist exploring interactions that fuse digital and physical. Thrives in ambiguous environments using a hands-on and iterative approach focused on experience prototyping; putting concepts in the world by gluing together various hard- and software.
           {/* <br/><br/>
+          
           Right now he's doing exactly that at <a href="https://www.above.se" target="_blank">Above</a>. Before that, he created content at <a href="https://www.arduino.cc" target="_blank">Arduino</a> and built bespoke innovation concepts at <a href="https://www.rolls-roycemotorcars.com" target="_blank">Rolls-Royce</a> whilst mastering IxD at <a href="https://www.umu.se/en/umea-institute-of-design/" target="_blank">UID</a>. 
           Earlier, he prototyped concept car mockups at <a href="https://www.bmwgroup.com" target="_blank">BMW</a> and did bachelors in ID at the <a href="https://www.tue.nl/en/" target="_blank">TU/e</a>.
           There he also co-founded <Link to="/team-red" onClick={onNextClick}>Team RED</Link>, a startup creating a tool to explore future energy scenarios together.  */}
